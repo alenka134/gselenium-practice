@@ -1,0 +1,4 @@
+com/gselenium/practice/practice4/tests/TasksTest.class
+com/gselenium/practice/practice4/pageobject/BasePage.class
+com/gselenium/practice/practice4/pageobject/TasksPage.class
+com/gselenium/practice/practice4/pageobject/TestPage.class
