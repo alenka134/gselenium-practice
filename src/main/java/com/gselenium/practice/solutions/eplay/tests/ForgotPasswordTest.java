@@ -36,5 +36,6 @@ public class ForgotPasswordTest {
         } else {
             System.out.println("Fail");
         }
+        driver.quit();
     }
 }
