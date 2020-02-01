@@ -9,6 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
     WebDriver driver;
+
     //before class we open the driver
     @BeforeClass
     public void setup() {
@@ -18,6 +19,7 @@ public class BaseTest {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("https://www.eply.com/Login/index.aspx?Logout=True");
     }
+
     //after class we close the driver
     @AfterClass
     public void tearDown() {

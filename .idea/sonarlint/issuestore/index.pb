@@ -17,3 +17,11 @@ Nsrc/main/java/com/gselenium/practice/solutions/eplay/pageobjects/BasePage.java
 Xsrc/main/java/com/gselenium/practice/solutions/eplay/pageobjects/ForgotPasswordPage.java,6/3/634d2f9c3f0a8926de5cc43e7a1b17fc33ebe705
 ‚
 Rsrc/main/java/com/gselenium/practice/solutions/eplay/tests/ForgotPasswordTest.java,7/4/74c4b32e6c7f9eacd69653b374eebdd6cb146425
+M
+Test Results - LoginTest.html,8/c/8c500ba139f55e072ace87875ffec7d143359357
+y
+Isrc/main/java/com/gselenium/practice/solutions/eplay/tests/LoginTest.java,7/b/7bd2b10a89d91701c2fae2065c8bd29b9e2ef59e
+x
+Hsrc/main/java/com/gselenium/practice/solutions/eplay/tests/BaseTest.java,4/3/43d52d3886ea834edb779081dfc3a5f5f709a410
+}
+Msrc/main/java/com/gselenium/practice/solutions/eplay/tests/ForgotPswTest.java,5/f/5fbce7449c80c991bbef25a20b3f4a8939e3fc19
