@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1eabf816-7e03-41af-ba74-25c218396dc9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/tests/ForgotPswTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/tests/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/634d2f9c3f0a8926de5cc43e7a1b17fc33ebe705" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/634d2f9c3f0a8926de5cc43e7a1b17fc33ebe705" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/74c4b32e6c7f9eacd69653b374eebdd6cb146425" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/74c4b32e6c7f9eacd69653b374eebdd6cb146425" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b9be8731bba6b4d07437e6eccb9556fd571895c7" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b9be8731bba6b4d07437e6eccb9556fd571895c7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cfb62037116a9eaacc1cae5a7648df5f08d26549" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cfb62037116a9eaacc1cae5a7648df5f08d26549" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Package-Test_Result_eplay.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Package-Test_Result_eplay_xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test Results - eplay.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test Results_eplay_xml.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/pageobjects/ForgotPasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/pageobjects/ForgotPasswordPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/pageobjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/pageobjects/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/tests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/tests/ForgotPasswordTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gselenium/practice/solutions/eplay/pageobjects/ForgotPasswordPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gselenium/practice/solutions/eplay/pageobjects/ForgotPasswordPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/tests/ForgotPswTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/tests/ForgotPswTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gselenium/practice/solutions/eplay/tests/ForgotPasswordTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,14 +19,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" openResultsInEditor="true" userTempatePath="" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/tests/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="322">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,11 +34,32 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Test Results - eplay.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Test Results - eplay.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Package-Test_Result_eplay.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Package-Test_Result_eplay.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ForgotPswTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/tests/ForgotPswTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="77" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
+            <state relative-caret-position="285">
+              <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,6 +70,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -79,8 +95,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/pageobjects/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/tests/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/pageobjects/ForgotPasswordPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/tests/ForgotPswTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/tests/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/tests/ForgotPswTest.java" />
+        <option value="$PROJECT_DIR$/PackageTestResults - eplay.fxml" />
+        <option value="$PROJECT_DIR$/Test Results - Package-eplay.xml" />
+        <option value="$PROJECT_DIR$/Package-eplay.xml" />
+        <option value="$PROJECT_DIR$/Package-Test_Result_eplay.xml" />
+        <option value="$PROJECT_DIR$/Test Results - eplay.xml" />
       </list>
     </option>
   </component>
@@ -136,35 +157,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="gselenium-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gselenium-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="eplay" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gselenium-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gselenium-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="eplay" type="462c0819:PsiDirectoryNode" />
-              <item name="pageobjects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gselenium-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gselenium-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="eplay" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -174,8 +166,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="testng&#9;PSI&#9;JAVA://org.testng.reporters.SuiteHTMLReporter#TESTNG_XML&#10;setti&#9;ACTION&#9;DBNavigator.Actions.CodeEditor.OpenSettings&#10;sett&#9;ACTION&#9;DBNavigator.Actions.CodeEditor.OpenSettings" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
@@ -199,18 +192,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ForgotPswTest">
-    <configuration name="ForgotPasswordTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gselenium.practice.solutions.eplay.tests.ForgotPasswordTest" />
-      <module name="gselenium-practice" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gselenium.practice.solutions.eplay.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="TestNG./Users/alenka/Programming/Java/gselenium-practice/Test Results - eplay.xml">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gselenium.practice.solutions.eplay.tests.Main" />
       <module name="gselenium-practice" />
@@ -240,35 +222,6 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
-    </configuration>
-    <configuration name="ForgotPasswordTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="gselenium-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gselenium.practice.solutions.eplay.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.gselenium.practice.solutions.eplay.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.gselenium.practice.solutions.eplay.tests.ForgotPasswordTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
     </configuration>
     <configuration name="ForgotPswTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="gselenium-practice" />
@@ -328,6 +281,52 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="/Users/alenka/Programming/Java/gselenium-practice/Package-Test_Result_eplay.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="gselenium-practice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Package-Test_Result_eplay.xml" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="/Users/alenka/Programming/Java/gselenium-practice/Test Results - eplay.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="gselenium-practice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Test Results - eplay.xml" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -351,19 +350,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ForgotPasswordTest" />
       <item itemvalue="TestNG.LoginTest" />
-      <item itemvalue="TestNG.ForgotPasswordTest" />
       <item itemvalue="TestNG.ForgotPswTest" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="TestNG./Users/alenka/Programming/Java/gselenium-practice/Test Results - eplay.xml" />
+      <item itemvalue="TestNG./Users/alenka/Programming/Java/gselenium-practice/Package-Test_Result_eplay.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/alenka/Programming/Java/gselenium-practice/Test Results - eplay.xml" />
+        <item itemvalue="TestNG./Users/alenka/Programming/Java/gselenium-practice/Package-Test_Result_eplay.xml" />
         <item itemvalue="TestNG.ForgotPswTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.ForgotPasswordTest" />
-        <item itemvalue="Application.ForgotPasswordTest" />
       </list>
     </recent_temporary>
   </component>
@@ -385,31 +384,17 @@
       <option name="project" value="LOCAL" />
       <updated>1580307681111</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add ForgotPswTest">
+      <created>1580585218886</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580585218887</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTest - 2020.02.01 at 19h 21m 56s.xml">
-      <configuration name="LoginTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ForgotPswTest - 2020.02.01 at 19h 43m 02s.xml">
-      <configuration name="ForgotPswTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ForgotPswTest - 2020.02.01 at 19h 46m 19s.xml">
-      <configuration name="ForgotPswTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ForgotPswTest - 2020.02.01 at 19h 48m 54s.xml">
-      <configuration name="ForgotPswTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ForgotPswTest - 2020.02.01 at 19h 50m 16s.xml">
-      <configuration name="ForgotPswTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ForgotPswTest - 2020.02.01 at 19h 55m 35s.xml">
-      <configuration name="ForgotPswTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ForgotPswTest - 2020.02.01 at 20h 05m 56s.xml">
-      <configuration name="ForgotPswTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ForgotPswTest - 2020.02.01 at 21h 05m 19s.xml">
       <configuration name="ForgotPswTest" configurationId="TestNG" />
     </history-entry>
@@ -418,6 +403,27 @@
     </history-entry>
     <history-entry file="ForgotPswTest - 2020.02.01 at 21h 20m 28s.xml">
       <configuration name="ForgotPswTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_alenka_Programming_Java_gselenium-practice_Test_Results_-_eplay_xml - 2020.02.01 at 22h 13m 23s.xml">
+      <configuration name="/Users/alenka/Programming/Java/gselenium-practice/Test Results - eplay.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_alenka_Programming_Java_gselenium-practice_Test_Results_-_eplay_xml - 2020.02.01 at 22h 20m 35s.xml">
+      <configuration name="/Users/alenka/Programming/Java/gselenium-practice/Test Results - eplay.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_alenka_Programming_Java_gselenium-practice_Test_Results_-_eplay_xml - 2020.02.01 at 22h 50m 28s.xml">
+      <configuration name="/Users/alenka/Programming/Java/gselenium-practice/Test Results - eplay.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_alenka_Programming_Java_gselenium-practice_Package-Test_Result_eplay_xml - 2020.02.01 at 22h 52m 55s.xml">
+      <configuration name="/Users/alenka/Programming/Java/gselenium-practice/Package-Test_Result_eplay.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_alenka_Programming_Java_gselenium-practice_Package-Test_Result_eplay_xml - 2020.02.01 at 22h 54m 12s.xml">
+      <configuration name="/Users/alenka/Programming/Java/gselenium-practice/Package-Test_Result_eplay.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_alenka_Programming_Java_gselenium-practice_Test_Results_-_eplay_xml - 2020.02.01 at 23h 04m 42s.xml">
+      <configuration name="/Users/alenka/Programming/Java/gselenium-practice/Test Results - eplay.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_alenka_Programming_Java_gselenium-practice_Test_Results_-_eplay_xml - 2020.02.01 at 23h 05m 38s.xml">
+      <configuration name="/Users/alenka/Programming/Java/gselenium-practice/Test Results - eplay.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -442,7 +448,7 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.32793018" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.33040202" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.4426434" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28683835" />
       <window_info anchor="bottom" id="SonarLint" order="7" />
@@ -495,7 +501,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated with LoginTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated with LoginTest" />
+    <MESSAGE value="add ForgotPswTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ForgotPswTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -503,26 +510,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/tests/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="70" column="120" selection-start-line="70" selection-start-column="120" selection-end-line="70" selection-end-column="120" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/pageobjects/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="45" column="25" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/tests/ForgotPasswordTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -537,6 +524,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -578,6 +568,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="64" lean-forward="true" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -804,13 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-126">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gselenium/practice/practice4/tests/TasksTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10">
@@ -887,20 +873,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/tests/ForgotPswTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.17/testng-6.8.17.jar!/org/testng/reporters/SuiteHTMLReporter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="77" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
+        <state relative-caret-position="-331">
+          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.17/testng-6.8.17-sources.jar!/org/testng/reporters/SuiteHTMLReporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2443">
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/tests/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="322">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/tests/ForgotPswTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTestResults - eplay.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Package-Test_Result_eplay.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test Results - eplay.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
         </state>
       </provider>
     </entry>

@@ -17,7 +17,7 @@ public class ForgotPswTest extends BaseTest {
         String expected = "Sorry, either your username or password was incorrect.";
 
         Assert.assertEquals(actual, expected);
-        System.out.println("Test #1 --> An actual message is: " + actual);
+        System.out.println("Test from Forgot PswTest --> An actual message is: " + actual);
     }
 }
 
