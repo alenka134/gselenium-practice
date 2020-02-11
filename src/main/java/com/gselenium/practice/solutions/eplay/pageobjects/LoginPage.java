@@ -35,6 +35,7 @@ public class LoginPage extends BasePage {
         fillText(this.password, password);
         //click the login button
         click(btnLogin);
+
     }
 
     public String getErrorMessage() {

@@ -13,7 +13,7 @@ public class BaseTest {
     //before class we open the driver
     @BeforeClass
     public void setup() {
-        System.setProperty("webdriver.chrom.driver", "/Users/alenka/automation/drivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/Users/alenka/automation/drivers/chromedriver");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

@@ -15,8 +15,6 @@ Osrc/main/java/com/gselenium/practice/solutions/eplay/pageobjects/LoginPage.java
 Nsrc/main/java/com/gselenium/practice/solutions/eplay/pageobjects/BasePage.java,b/9/b9be8731bba6b4d07437e6eccb9556fd571895c7
 ˆ
 Xsrc/main/java/com/gselenium/practice/solutions/eplay/pageobjects/ForgotPasswordPage.java,6/3/634d2f9c3f0a8926de5cc43e7a1b17fc33ebe705
-‚
-Rsrc/main/java/com/gselenium/practice/solutions/eplay/tests/ForgotPasswordTest.java,7/4/74c4b32e6c7f9eacd69653b374eebdd6cb146425
 M
 Test Results - LoginTest.html,8/c/8c500ba139f55e072ace87875ffec7d143359357
 y
@@ -25,3 +23,13 @@ x
 Hsrc/main/java/com/gselenium/practice/solutions/eplay/tests/BaseTest.java,4/3/43d52d3886ea834edb779081dfc3a5f5f709a410
 }
 Msrc/main/java/com/gselenium/practice/solutions/eplay/tests/ForgotPswTest.java,5/f/5fbce7449c80c991bbef25a20b3f4a8939e3fc19
+t
+Dsrc/main/java/com/gselenium/practice/solutions/eplay/tests/Main.java,b/3/b3f6cab995c4b2c7ec4f15073a9ede8154f6d1e0
+M
+Package-Test_Result_eplay.xml,8/2/82794950813579e4dad0233c3d683bc3bfa29bbd
+R
+"Package-Test_Result_eplay_xml.html,4/0/40727b0704d1c7bc7e36e1b63f0b380816b39c70
+K
+Test Results_eplay_xml.html,3/0/30db2d7dd4286a1832f863aea77f3bf307e80912
+H
+Test Results - eplay.xml,d/7/d7331cef1ef4aa17f8282604bde2dab7bffd3242

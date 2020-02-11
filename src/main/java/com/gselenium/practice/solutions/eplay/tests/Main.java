@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty("webdriver.chrom.driver", "/Users/alenka/automation/drivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/Users/alenka/automation/drivers/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
