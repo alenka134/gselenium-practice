@@ -1,5 +1,6 @@
 package com.gselenium.practice.solutions.eplay.pageobjects;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -18,7 +19,7 @@ public class LoginPage extends BasePage {
     @FindBy(css = "#body_ErrorMessage")
     WebElement errorMessage;
 
-    public LoginPage (WebDriver driver) {
+    public LoginPage(WebDriver driver) {
         super(driver);
     }
 
@@ -36,10 +37,13 @@ public class LoginPage extends BasePage {
         //click the login button
         click(btnLogin);
 
+        //highLight login button in login page
+        highlightElement(btnLogin);
+        //Change the style back after few milliseconds
+        highlightElementTime(btnLogin, "orange");
     }
 
     public String getErrorMessage() {
-
         return errorMessage.getText();
     }
 
