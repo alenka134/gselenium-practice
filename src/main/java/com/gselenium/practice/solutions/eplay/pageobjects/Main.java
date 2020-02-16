@@ -1,14 +1,10 @@
-package com.gselenium.practice.solutions.eplay.tests;
+package com.gselenium.practice.solutions.eplay.pageobjects;
 
-import com.gselenium.practice.solutions.eplay.pageobjects.ForgotPasswordPage;
-import com.gselenium.practice.solutions.eplay.pageobjects.LoginPage;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
-import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.io.File;
 import java.io.IOException;
@@ -30,9 +26,8 @@ public class Main {
         fpTest.isMessageAppear();
 
         LoginPage loginPage = new LoginPage(driver);
-        loginPage.forgotYourPassword();
-
-        loginPage.login("joho", "353535636535");  // include highLightElement(btnLogin);
+        // include highLightElement(btnLogin);
+        loginPage.login("joho", "353535636535");
         Thread.sleep(3000);
 
         // Take ScreenShot
