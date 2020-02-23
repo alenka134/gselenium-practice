@@ -23,8 +23,6 @@ x
 Hsrc/main/java/com/gselenium/practice/solutions/eplay/tests/BaseTest.java,4/3/43d52d3886ea834edb779081dfc3a5f5f709a410
 }
 Msrc/main/java/com/gselenium/practice/solutions/eplay/tests/ForgotPswTest.java,5/f/5fbce7449c80c991bbef25a20b3f4a8939e3fc19
-t
-Dsrc/main/java/com/gselenium/practice/solutions/eplay/tests/Main.java,b/3/b3f6cab995c4b2c7ec4f15073a9ede8154f6d1e0
 M
 Package-Test_Result_eplay.xml,8/2/82794950813579e4dad0233c3d683bc3bfa29bbd
 R
@@ -37,3 +35,19 @@ H
 Ssrc/main/java/com/gselenium/practice/solutions/eplay/tests/DataProviderExample.java,7/1/714c73584b8f34a94962e0b3ff596c18c71e5578
 x
 Hsrc/main/java/com/gselenium/practice/solutions/eplay/utilites/Excel.java,8/5/85a7b0f59bc59e0144448a1503c028d50d564584
+ƒ
+Ssrc/main/java/com/gselenium/practice/ipro_automation/pageobjects/ContactUsPage.java,c/3/c34434ce9a185fe1ab57e29541cf444fc2e34a44
+z
+Jsrc/main/java/com/gselenium/practice/solutions/eplay/pageobjects/Main.java,c/c/cc22db3c1d2ce3da4cd448e88f47ea5edd3d40ac
+~
+Nsrc/main/java/com/gselenium/practice/ipro_automation/pageobjects/HomePage.java,7/3/7322f1c76e330b533806a8d141be3a206d06a7c1
+…
+Usrc/main/java/com/gselenium/practice/ipro_automation/pageobjects/LoginPageFailed.java,e/3/e328aba38b391f5d6f2ea3069952ed66cbd611b9
+ƒ
+Ssrc/main/java/com/gselenium/practice/ipro_automation/pageobjects/LoginPagePass.java,1/c/1c8172aa18536d5cd1952de5e507f525c6109f72
+~
+Nsrc/main/java/com/gselenium/practice/ipro_automation/pageobjects/BasePage.java,0/c/0cfc1af7179d4d87f90f20780f71eb67014bbf2d
+Ž
+^src/main/java/com/gselenium/practice/ipro_automation/pageobjects/ProficiencyIntroTestPage.java,8/d/8dad77f2cc97f93d1fd4bd2fd945cbe6b5468257
+z
+Jsrc/main/java/com/gselenium/practice/ipro_automation/pageobjects/Main.java,e/f/ef8d7cc1c0ed1b31ad4f313e5bcb235058f05052

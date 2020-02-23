@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1eabf816-7e03-41af-ba74-25c218396dc9" name="Default" comment=" add highLightElement">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/ContactUsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/ProficiencyTestPage.java" afterDir="false" />
+    <list default="true" id="1eabf816-7e03-41af-ba74-25c218396dc9" name="Default" comment="change Main location">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/IntroWho4AutoVisionPap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/LoginPageFailed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/00048f4817c679e3b33d90d0869b1fc1f07926a9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/00048f4817c679e3b33d90d0869b1fc1f07926a9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/634d2f9c3f0a8926de5cc43e7a1b17fc33ebe705" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/634d2f9c3f0a8926de5cc43e7a1b17fc33ebe705" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b9be8731bba6b4d07437e6eccb9556fd571895c7" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b9be8731bba6b4d07437e6eccb9556fd571895c7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cfb62037116a9eaacc1cae5a7648df5f08d26549" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cfb62037116a9eaacc1cae5a7648df5f08d26549" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/pageobjects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/pageobjects/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/pageobjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/pageobjects/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/tests/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/pageobjects/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gselenium/practice/solutions/eplay/pageobjects/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gselenium/practice/solutions/eplay/pageobjects/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gselenium/practice/solutions/eplay/pageobjects/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gselenium/practice/solutions/eplay/pageobjects/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/ContactUsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/ContactUsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/ProficiencyTestPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/LoginPagePass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +53,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="SearchEverywhereHistoryKey" value="testng&#9;PSI&#9;JAVA://org.testng.reporters.SuiteHTMLReporter#TESTNG_XML&#10;setti&#9;ACTION&#9;DBNavigator.Actions.CodeEditor.OpenSettings&#10;sett&#9;ACTION&#9;DBNavigator.Actions.CodeEditor.OpenSettings" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -63,7 +65,7 @@
       <recent name="practice4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gselenium.practice.solutions.eplay.pageobjects.Main" />
       <module name="gselenium-practice" />
@@ -71,6 +73,34 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gselenium.practice.solutions.eplay.pageobjects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gselenium.practice.ipro_automation.pageobjects.Main" />
+      <module name="gselenium-practice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gselenium.practice.ipro_automation.pageobjects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gselenium.practice.ipro_automation.pageobjects.Main" />
+      <module name="gselenium-practice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gselenium.practice.ipro_automation.pageobjects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,25 +132,6 @@
       <option name="PACKAGE_NAME" value="com.gselenium.practice.solutions.eplay.tests" />
       <option name="MAIN_CLASS_NAME" value="com.gselenium.practice.solutions.eplay.tests.DataProviderExample" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataProviderExample.l1_loginFailed" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="gselenium-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gselenium.practice.solutions.eplay.pageobjects.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.gselenium.practice.solutions.eplay.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.gselenium.practice.solutions.eplay.tests.DataProviderExample" />
-      <option name="METHOD_NAME" value="l1_loginFailed" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -171,15 +182,15 @@
       <item itemvalue="TestNG./Users/alenka/Programming/Java/gselenium-practice/Package-Test_Result_eplay.xml" />
       <item itemvalue="TestNG.DataProviderExample" />
       <item itemvalue="TestNG.LoginTest" />
-      <item itemvalue="TestNG.DataProviderExample.l1_loginFailed" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG./Users/alenka/Programming/Java/gselenium-practice/Package-Test_Result_eplay.xml" />
         <item itemvalue="TestNG.DataProviderExample" />
-        <item itemvalue="TestNG.DataProviderExample.l1_loginFailed" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581798097675</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="change Main location">
+      <created>1581884673968</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1581884673968</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -237,140 +255,74 @@
     <MESSAGE value="add ForgotPswTest" />
     <MESSAGE value="add DataProvider" />
     <MESSAGE value=" add highLightElement" />
-    <option name="LAST_COMMIT_MESSAGE" value=" add highLightElement" />
+    <MESSAGE value="change Main location" />
+    <option name="LAST_COMMIT_MESSAGE" value="change Main location" />
   </component>
   <component name="WindowStateProjectService">
     <state x="124" y="274" width="595" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1581882823014">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="124" y="274" width="595" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.797@0.23.1440.797" timestamp="1581882823014" />
-    <state x="210" y="105" key="CommitChangelistDialog2" timestamp="1581798097482">
+    <state x="329" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582389963423">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="210" y="105" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581798097482" />
-    <state width="1398" height="314" key="GridCell.Tab.0.bottom" timestamp="1581884504937">
+    <state x="329" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1582389963423" />
+    <state x="210" y="105" key="CommitChangelistDialog2" timestamp="1581884673755">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="314" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581884504937" />
-    <state width="758" height="161" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1581882878399" />
-    <state width="1398" height="314" key="GridCell.Tab.0.center" timestamp="1581884504935">
+    <state x="210" y="105" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581884673755" />
+    <state width="1398" height="192" key="GridCell.Tab.0.bottom" timestamp="1582481408419">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="314" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581884504935" />
-    <state width="758" height="161" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1581882878398" />
-    <state width="1398" height="314" key="GridCell.Tab.0.left" timestamp="1581884504935">
+    <state width="1398" height="192" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582481408419" />
+    <state width="785" height="192" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1582475844466" />
+    <state width="1398" height="192" key="GridCell.Tab.0.center" timestamp="1582481408418">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="314" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581884504935" />
-    <state width="758" height="161" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1581882878398" />
-    <state width="1398" height="314" key="GridCell.Tab.0.right" timestamp="1581884504936">
+    <state width="1398" height="192" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582481408418" />
+    <state width="785" height="192" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1582475844465" />
+    <state width="1398" height="192" key="GridCell.Tab.0.left" timestamp="1582481408417">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="314" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581884504936" />
-    <state width="758" height="161" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1581882878398" />
-    <state x="0" y="47" key="SettingsEditor" timestamp="1581410827501">
+    <state width="1398" height="192" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582481408417" />
+    <state width="785" height="192" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1582475844464" />
+    <state width="1398" height="192" key="GridCell.Tab.0.right" timestamp="1582481408418">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="192" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582481408418" />
+    <state width="785" height="192" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1582475844465" />
+    <state width="1398" height="292" key="GridCell.Tab.1.bottom" timestamp="1582275024345">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="0" y="47" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1581410827501" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1581798102605">
+    <state width="1398" height="292" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1582275024345" />
+    <state width="1398" height="292" key="GridCell.Tab.1.center" timestamp="1582275024345">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="292" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1582275024345" />
+    <state width="1398" height="292" key="GridCell.Tab.1.left" timestamp="1582275024344">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="292" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1582275024344" />
+    <state width="1398" height="292" key="GridCell.Tab.1.right" timestamp="1582275024345">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="292" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1582275024345" />
+    <state x="0" y="27" key="SettingsEditor" timestamp="1581955070801">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1581798102605" />
+    <state x="0" y="27" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1581955070801" />
+    <state x="0" y="47" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1581410827501" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1581884679395">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1581884679395" />
     <state x="397" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1581410361539">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="397" y="254" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1581410361539" />
-    <state x="426" y="73" key="refactoring.ChangeSignatureDialog" timestamp="1581448558281">
+    <state x="426" y="73" key="refactoring.ChangeSignatureDialog" timestamp="1582018728928">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="426" y="73" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1581448558281" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>gselenium-practice</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: com.beust:jcommander:1.27</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <state x="426" y="73" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1582018728928" />
   </component>
 </project>
