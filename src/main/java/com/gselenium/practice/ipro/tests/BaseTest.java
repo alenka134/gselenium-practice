@@ -1,4 +1,4 @@
-package com.gselenium.practice.solutions.eplay.tests;
+package com.gselenium.practice.ipro.tests;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -16,6 +16,7 @@ import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
     WebDriver driver;
+
     //before class we open the driver
     @BeforeClass
     public void setup() {
@@ -23,7 +24,7 @@ public class BaseTest {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.get("https://www.eply.com/Login/index.aspx?Logout=True");
+        driver.get("http://www.e-sperm.com/I-PRO/#/");
     }
     /*
      * This method will run after each test,
@@ -32,15 +33,17 @@ public class BaseTest {
     @AfterMethod
     public void failedTest(ITestResult result) {
         //check if the test failed
-        if (result.getStatus() == ITestResult.FAILURE) {
-            TakesScreenshot ts = (TakesScreenshot) driver;
+        if (result.getStatus() == ITestResult.FAILURE ){
+            TakesScreenshot ts = (TakesScreenshot)driver;
             File srcFile = ts.getScreenshotAs(OutputType.FILE);
             try {
-                FileUtils.copyFile(srcFile, new File("/Users/alenka/Desktop/Screenshots/" + result.getName() + ".jpg"));
+                FileUtils.copyFile(srcFile, new File("/Users/alenka/Desktop/Screenshots/"+result.getName()+".jpg"));
             } catch (IOException e) {
                 // TODO Auto-generated catch block
                 e.printStackTrace();
             }
+            //result.getname() method will give you current test case name.
+            //./ScreenShots/ tell you that, in your current directory, create folder ScreenShots. dot represents current directory
         }
     }
     //after class we close the driver

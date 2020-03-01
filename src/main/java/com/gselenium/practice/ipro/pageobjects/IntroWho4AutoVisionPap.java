@@ -1,15 +1,17 @@
-package com.gselenium.practice.ipro_automation.pageobjects;
+package com.gselenium.practice.ipro.pageobjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.Select;
+
+import java.util.ArrayList;
 
 public class IntroWho4AutoVisionPap extends BasePage {
 
     @FindBy(css = "input[type=text][name='Batchnumber']")
     WebElement enterBatchNumber;
-
+   // @FindBy(css = "a[href='assets/I-PRO_Insert_ internal_alpha.pdf']")
+   // WebElement herePDFInstructionLink;
     @FindBy(css = "#dropdownBasic1")
     WebElement WHO;
     @FindBy(xpath = "//button[text()='WHO 5']")
@@ -58,7 +60,7 @@ public class IntroWho4AutoVisionPap extends BasePage {
         click(enterBatchNumber);
     }
 
-    //this method for WHO5, but we can change criteria to WHO3 or WHO4
+    //this method for WHO4, but we can change criteria to WHO5 or WHO4
     public void setNoReplicateWho4() {
         click(WHO);
         click(WHO4);
@@ -80,12 +82,6 @@ public class IntroWho4AutoVisionPap extends BasePage {
         System.out.println("Device type is: " + deviceType.getText());
     }
 
-    /*  public void setNoReplicateWho5MethodManual() {
-          click(concAssumpMethod);
-          click(concAssumpMethodManual);
-          highlightElementTime(concAssumpMethodManual, "blue");
-          System.out.println("Concentration assumption method is: " + concAssumpMethod.getText());
-      } */
     //staining method is the last mandatory choice in intro page
     public void setStainingMethodPapanicolaou() {
         click(stainingMethod);

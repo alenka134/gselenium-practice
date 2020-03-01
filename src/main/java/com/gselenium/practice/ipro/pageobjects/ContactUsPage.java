@@ -1,4 +1,4 @@
-package com.gselenium.practice.ipro_automation.pageobjects;
+package com.gselenium.practice.ipro.pageobjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -31,6 +31,8 @@ public class ContactUsPage extends BasePage {
     WebElement approvedMessage;
     @FindBy(css = "button[class='btn btn-primary']")
     WebElement btnBackToHomePage;
+    @FindBy(css = "button[class='signInBtn']")
+    WebElement btnSignIn;
 
     public ContactUsPage(WebDriver driver) {
         super(driver);
@@ -84,6 +86,7 @@ public class ContactUsPage extends BasePage {
         click(btnSend);
         System.out.println("User contact details sent successfully, the approved message is: " + approvedMessage.getText());
         click(btnBackToHomePage);
+        click(btnSignIn);
     }
 }
 

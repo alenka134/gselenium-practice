@@ -1,4 +1,4 @@
-package com.gselenium.practice.ipro_automation.pageobjects;
+package com.gselenium.practice.ipro.pageobjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,28 +15,35 @@ public class Main {
 
         HomePage homePage = new HomePage(driver);
         homePage.getLogo();
+        homePage.getHome();
+        homePage.getContactUs();
+        homePage.getProficiency();
+        homePage.getSignInHome();
 
-    /*    LoginPageFailed loginPageFailed = new LoginPageFailed(driver);
+      LoginPageFailed loginPageFailed = new LoginPageFailed(driver);
         ContactUsPage contactUsPage = new ContactUsPage(driver);
         // Use incorrect login
-        loginPageFailed.login1("tester@test", "46464664");
-        loginPageFailed.getErrorMessage();
-        loginPageFailed.forgotYourPassword();
+       // loginPageFailed.login1("tester@test", "46464664");
+       loginPageFailed.openContactUsPage();
+       // loginPageFailed.getErrorMessage(); ---> just now the link disabled
+
         //Verification Contact form and all icons
-        contactUsPage.getContactIcons();
+      contactUsPage.getContactIcons();
         //printout MES contact email
         contactUsPage.isInfoMesEmailAppear();
         //Enter all contact details and pay attention phone number should be 10-12 digits
         contactUsPage.fillContactUs("Lena", "Tester", "elena@tester", "1234567891", "mes", "contact");
-*/
+
         // Use correct login and enter to Proficiency Test Page
         LoginPagePass loginPagePass = new LoginPagePass(driver);
         loginPagePass.login("elena@mes-ltd.com", "123456");
 
         IntroWho4AutoVisionPap introWho4AutomaticVisionPap = new IntroWho4AutoVisionPap(driver);
-        //enter Test Batch number: B31102019 and select WHO5
+        //enter Test Batch number: B31102019 and select WHO
         introWho4AutomaticVisionPap.getBatchNumber("B31102019");
-        //enter WHO5 criteria
+        //"here" instructional PDF link verification
+        loginPagePass.getHerePDFInstructionLink();
+        //enter WHO criteria
         introWho4AutomaticVisionPap.setNoReplicateWho4();
         //choose Concentration Assumption method: Automatic
         introWho4AutomaticVisionPap.setNoReplicateWhoAutomatic();
@@ -46,6 +53,6 @@ public class Main {
         Thread.sleep(2000);
         //last selection: staining Pap and start testing
         introWho4AutomaticVisionPap.setStainingMethodPapanicolaou();
-        // driver.quit();
+         driver.quit();
     }
 }

@@ -1,32 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1eabf816-7e03-41af-ba74-25c218396dc9" name="Default" comment="change Main location">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/IntroWho4AutoVisionPap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/LoginPageFailed.java" afterDir="false" />
+    <list default="true" id="1eabf816-7e03-41af-ba74-25c218396dc9" name="Default" comment="Login, ContactUS, Intro completed in Main">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/Package-Test_Result_ipro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/pageobjects/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/pageobjects/MotilityCountingWho4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/ContactUsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/HomePageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/IntroWho4AutoVisionPapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/LoginFailedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/LoginPassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/MotilityCountingWho4Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/00048f4817c679e3b33d90d0869b1fc1f07926a9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/00048f4817c679e3b33d90d0869b1fc1f07926a9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/634d2f9c3f0a8926de5cc43e7a1b17fc33ebe705" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/634d2f9c3f0a8926de5cc43e7a1b17fc33ebe705" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b9be8731bba6b4d07437e6eccb9556fd571895c7" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b9be8731bba6b4d07437e6eccb9556fd571895c7" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cfb62037116a9eaacc1cae5a7648df5f08d26549" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cfb62037116a9eaacc1cae5a7648df5f08d26549" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/ContactUsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/ContactUsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/ProficiencyTestPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/LoginPagePass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Package-Test_Result_eplay.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/Package-Test_Result_eplay.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Package-Test_Result_eplay_xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/Package-Test_Result_eplay_xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test Results - LoginTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/Test Results - LoginTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test Results - eplay.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/Test Results - eplay.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test Results_eplay_xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/Test Results_eplay_xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/pageobjects/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/ContactUsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/pageobjects/ContactUsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/HomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/IntroWho4AutoVisionPap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/pageobjects/IntroWho4AutoVisionPap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/LoginPageFailed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/pageobjects/LoginPageFailed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/LoginPagePass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/pageobjects/LoginPagePass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation/pageobjects/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/pageobjects/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/tests/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" openResultsInEditor="true" userTempatePath="" />
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro" openResultsInEditor="true" userTempatePath="" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -64,36 +78,14 @@
       <recent name="com.gselenium.practice.practice4" />
       <recent name="practice4" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro_automation" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/gselenium/practice" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gselenium.practice.solutions.eplay.pageobjects.Main" />
-      <module name="gselenium-practice" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gselenium.practice.solutions.eplay.pageobjects.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gselenium.practice.ipro_automation.pageobjects.Main" />
-      <module name="gselenium-practice" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gselenium.practice.ipro_automation.pageobjects.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG./Users/alenka/Programming/Java/gselenium-practice/src/main/java/com/gselenium/practice/ipro/Package-Test_Result_ipro.xml">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gselenium.practice.ipro_automation.pageobjects.Main" />
       <module name="gselenium-practice" />
@@ -121,16 +113,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataProviderExample" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactUsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="gselenium-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gselenium.practice.solutions.eplay.pageobjects.*" />
+          <option name="PATTERN" value="com.gselenium.practice.ipro.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.gselenium.practice.solutions.eplay.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.gselenium.practice.solutions.eplay.tests.DataProviderExample" />
+      <option name="PACKAGE_NAME" value="com.gselenium.practice.ipro.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.gselenium.practice.ipro.tests.ContactUsTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -139,16 +131,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="IntroWho4AutoVisionPapTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="gselenium-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gselenium.practice.solutions.eplay.pageobjects.*" />
+          <option name="PATTERN" value="com.gselenium.practice.ipro.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.gselenium.practice.solutions.eplay.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.gselenium.practice.solutions.eplay.tests.LoginTest" />
+      <option name="PACKAGE_NAME" value="com.gselenium.practice.ipro_automation.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.gselenium.practice.ipro.tests.IntroWho4AutoVisionPapTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPassTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="gselenium-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gselenium.practice.ipro.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gselenium.practice.ipro_automation.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.gselenium.practice.ipro.tests.LoginPassTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -168,6 +178,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/alenka/Programming/Java/gselenium-practice/src/main/java/com/gselenium/practice/ipro/Package-Test_Result_ipro.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="gselenium-practice" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/Package-Test_Result_ipro.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -178,19 +199,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
+      <item itemvalue="TestNG.LoginPassTest" />
+      <item itemvalue="TestNG.IntroWho4AutoVisionPapTest" />
       <item itemvalue="TestNG./Users/alenka/Programming/Java/gselenium-practice/Package-Test_Result_eplay.xml" />
-      <item itemvalue="TestNG.DataProviderExample" />
-      <item itemvalue="TestNG.LoginTest" />
-      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="TestNG./Users/alenka/Programming/Java/gselenium-practice/src/main/java/com/gselenium/practice/ipro/Package-Test_Result_ipro.xml" />
+      <item itemvalue="TestNG.ContactUsTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG./Users/alenka/Programming/Java/gselenium-practice/src/main/java/com/gselenium/practice/ipro/Package-Test_Result_ipro.xml" />
+        <item itemvalue="TestNG.LoginPassTest" />
+        <item itemvalue="TestNG.IntroWho4AutoVisionPapTest" />
+        <item itemvalue="TestNG.ContactUsTest" />
         <item itemvalue="TestNG./Users/alenka/Programming/Java/gselenium-practice/Package-Test_Result_eplay.xml" />
-        <item itemvalue="TestNG.DataProviderExample" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581884673968</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Login, ContactUS, Intro completed in Main">
+      <created>1582481604781</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1582481604781</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -256,70 +284,84 @@
     <MESSAGE value="add DataProvider" />
     <MESSAGE value=" add highLightElement" />
     <MESSAGE value="change Main location" />
-    <option name="LAST_COMMIT_MESSAGE" value="change Main location" />
+    <MESSAGE value="Login, ContactUS, Intro completed in Main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login, ContactUS, Intro completed in Main" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1582919635098">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.900@0.0.1440.900" timestamp="1582919635098" />
     <state x="124" y="274" width="595" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1581882823014">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="124" y="274" width="595" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.797@0.23.1440.797" timestamp="1581882823014" />
-    <state x="329" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582389963423">
+    <state x="329" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582482973226">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="329" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1582389963423" />
-    <state x="210" y="105" key="CommitChangelistDialog2" timestamp="1581884673755">
+    <state x="329" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1582482973226" />
+    <state x="210" y="105" key="CommitChangelistDialog2" timestamp="1582481604606">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="210" y="105" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581884673755" />
-    <state width="1398" height="192" key="GridCell.Tab.0.bottom" timestamp="1582481408419">
+    <state x="210" y="105" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582481604606" />
+    <state width="1398" height="175" key="GridCell.Tab.0.bottom" timestamp="1583072930548">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="192" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582481408419" />
-    <state width="785" height="192" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1582475844466" />
-    <state width="1398" height="192" key="GridCell.Tab.0.center" timestamp="1582481408418">
+    <state width="1398" height="175" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583072930548" />
+    <state width="852" height="157" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1582915356500" />
+    <state width="1398" height="175" key="GridCell.Tab.0.center" timestamp="1583072930546">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="192" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582481408418" />
-    <state width="785" height="192" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1582475844465" />
-    <state width="1398" height="192" key="GridCell.Tab.0.left" timestamp="1582481408417">
+    <state width="1398" height="175" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583072930546" />
+    <state width="852" height="157" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1582915356498" />
+    <state width="1398" height="175" key="GridCell.Tab.0.left" timestamp="1583072930545">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="192" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582481408417" />
-    <state width="785" height="192" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1582475844464" />
-    <state width="1398" height="192" key="GridCell.Tab.0.right" timestamp="1582481408418">
+    <state width="1398" height="175" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583072930545" />
+    <state width="852" height="157" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1582915356497" />
+    <state width="1398" height="175" key="GridCell.Tab.0.right" timestamp="1583072930547">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="192" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582481408418" />
-    <state width="785" height="192" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1582475844465" />
-    <state width="1398" height="292" key="GridCell.Tab.1.bottom" timestamp="1582275024345">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="1398" height="175" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583072930547" />
+    <state width="852" height="157" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1582915356499" />
+    <state width="1398" height="292" key="GridCell.Tab.1.bottom" timestamp="1583008731751">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="292" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583008731751" />
     <state width="1398" height="292" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1582275024345" />
-    <state width="1398" height="292" key="GridCell.Tab.1.center" timestamp="1582275024345">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="1398" height="292" key="GridCell.Tab.1.center" timestamp="1583008731750">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="292" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1583008731750" />
     <state width="1398" height="292" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1582275024345" />
-    <state width="1398" height="292" key="GridCell.Tab.1.left" timestamp="1582275024344">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="1398" height="292" key="GridCell.Tab.1.left" timestamp="1583008731750">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="292" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1583008731750" />
     <state width="1398" height="292" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1582275024344" />
-    <state width="1398" height="292" key="GridCell.Tab.1.right" timestamp="1582275024345">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="1398" height="292" key="GridCell.Tab.1.right" timestamp="1583008731751">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="292" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1583008731751" />
     <state width="1398" height="292" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1582275024345" />
     <state x="0" y="27" key="SettingsEditor" timestamp="1581955070801">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="0" y="27" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1581955070801" />
     <state x="0" y="47" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1581410827501" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1581884679395">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1582481608824">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1581884679395" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582481608824" />
     <state x="397" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1581410361539">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="397" y="254" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1581410361539" />
+    <state x="525" y="284" key="export.test.results" timestamp="1583073018616">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="525" y="284" key="export.test.results/0.0.1440.900@0.0.1440.900" timestamp="1583073018616" />
+    <state x="525" y="274" key="export.test.results/0.23.1440.797@0.23.1440.797" timestamp="1583059556392" />
     <state x="426" y="73" key="refactoring.ChangeSignatureDialog" timestamp="1582018728928">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

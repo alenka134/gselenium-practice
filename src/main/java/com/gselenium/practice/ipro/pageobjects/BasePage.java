@@ -1,4 +1,4 @@
-package com.gselenium.practice.ipro_automation.pageobjects;
+package com.gselenium.practice.ipro.pageobjects;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
