@@ -43,7 +43,7 @@ public class LoginPageFailed extends BasePage {
             e.printStackTrace();
         }
         //click the login button
-      //  click(btnLogin);
+        click(btnLogin);
     }
     public void login2(String user, String password) {
         //click Get Started button
@@ -54,7 +54,7 @@ public class LoginPageFailed extends BasePage {
         fillText(this.password, password);
     }
     public String getErrorMessage() {
-        click(forgotPasswordLink);
+        click(btnSignIn);
         System.out.println("Error message is: " + errorMessage.getText());
         return errorMessage.getText();
     }

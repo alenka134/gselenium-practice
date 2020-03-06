@@ -38,7 +38,6 @@ public class BaseTest {
             try {
                 FileUtils.copyFile(srcFile, new File("/Users/alenka/Desktop/Screenshots/" + result.getName() + ".jpg"));
             } catch (IOException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
         }

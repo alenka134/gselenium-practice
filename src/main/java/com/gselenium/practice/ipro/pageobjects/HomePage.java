@@ -15,7 +15,8 @@ public class HomePage extends BasePage {
     WebElement linkProficiency;
     @FindBy(css = "button[class='signInBtn']")
     WebElement btnSignInHome;
-
+    @FindBy(css = "div[class='TopPad']")
+    WebElement topPadHeader;
     public HomePage(WebDriver driver) {
         super(driver);
     }
@@ -25,6 +26,14 @@ public class HomePage extends BasePage {
         click(logo);
         //Change the style back after few milliseconds
         highlightElementTime(logo, "orange");
+        return true;
+    }
+    public boolean getTopPadHeader() {
+        topPadHeader.isDisplayed();
+        click(topPadHeader);
+        //Change the style back after few milliseconds
+        highlightElementTime(topPadHeader, "orange");
+        System.out.println(getText(topPadHeader));
         return true;
     }
     public boolean getHome() {

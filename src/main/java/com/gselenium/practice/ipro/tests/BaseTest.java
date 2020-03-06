@@ -39,7 +39,6 @@ public class BaseTest {
             try {
                 FileUtils.copyFile(srcFile, new File("/Users/alenka/Desktop/Screenshots/"+result.getName()+".jpg"));
             } catch (IOException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
             //result.getname() method will give you current test case name.
@@ -47,8 +46,8 @@ public class BaseTest {
         }
     }
     //after class we close the driver
-    @AfterClass
+   @AfterClass
     public void tearDown() {
-        driver.quit();
+       driver.quit();
     }
 }

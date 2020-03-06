@@ -4,14 +4,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import java.util.ArrayList;
-
 public class IntroWho4AutoVisionPap extends BasePage {
-
+    @FindBy(css = "p[class='notification']")
+    WebElement noteFinalTestDate;
     @FindBy(css = "input[type=text][name='Batchnumber']")
     WebElement enterBatchNumber;
-   // @FindBy(css = "a[href='assets/I-PRO_Insert_ internal_alpha.pdf']")
-   // WebElement herePDFInstructionLink;
+    // @FindBy(css = "a[href='assets/I-PRO_Insert_ internal_alpha.pdf']")
+    // WebElement herePDFInstructionLink;
     @FindBy(css = "#dropdownBasic1")
     WebElement WHO;
     @FindBy(xpath = "//button[text()='WHO 5']")
@@ -21,9 +20,9 @@ public class IntroWho4AutoVisionPap extends BasePage {
     @FindBy(xpath = "//button[text()='WHO 3']")
     WebElement WHO3;
 
-    @FindBy(css = "button[id='dropdownBasic2']")
+    @FindBy(css = "#dropdownBasic2")
     WebElement concAssumpMethod;
-    @FindBy(xpath = "//button[text()='Automatic']")
+    @FindBy(xpath = "//button[contains(text(),'Automatic')]")
     WebElement concAssumpMethodAutomatic;
     @FindBy(xpath = "//button[text()='Manual']")
     WebElement concAssumpMethodManual;
@@ -48,20 +47,33 @@ public class IntroWho4AutoVisionPap extends BasePage {
     WebElement stainingMethodDiffQuik;
     @FindBy(xpath = "//button[text()='Prestaind Slide']")
     WebElement stainingMethodPrestaindSlide;
-    @FindBy(css = "button[class='btn btn-primary navbtn']")
+    @FindBy(xpath = "//button[text()='Start Test']")
     WebElement btnStartTest;
 
     public IntroWho4AutoVisionPap(WebDriver driver) {
         super(driver);
     }
 
-    public void getBatchNumber(String batchNumber) {
+    public boolean getNotificationFinalTestDate() {
+        noteFinalTestDate.isDisplayed();
+        click(noteFinalTestDate);
+        //Change the style back after few milliseconds
+        highlightElementTime(noteFinalTestDate, "orange");
+        System.out.println("Note text is: " + getText(noteFinalTestDate));
+        return true;
+    }
+
+    public void getBatchNumber(String batchNumber) throws InterruptedException {
         fillText(enterBatchNumber, batchNumber);
         click(enterBatchNumber);
+        System.out.println("The static Batch Number is accepted: " + batchNumber);
+        Thread.sleep(2000);
     }
 
     //this method for WHO4, but we can change criteria to WHO5 or WHO4
     public void setNoReplicateWho4() {
+        fillText(enterBatchNumber, "B31102019");
+        click(enterBatchNumber);
         click(WHO);
         click(WHO4);
         highlightElementTime(WHO4, "blue");
