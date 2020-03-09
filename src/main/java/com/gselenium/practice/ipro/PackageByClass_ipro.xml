@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite">
+
+    <test thread-count="9" name="ipro_website" parallel="classes">
+        <classes>
+            <class name="com.gselenium.practice.ipro.tests.HomePageTest"/>
+            <class name="com.gselenium.practice.ipro.tests.IntroWho4AutoVisionPapTest"/>
+            <class name="com.gselenium.practice.ipro.tests.ContactUsTest"/>
+            <class name="com.gselenium.practice.ipro.tests.LoginPassTest"/>
+            <class name="com.gselenium.practice.ipro.tests.MotilityCountingWho4Test"/>
+            <class name="com.gselenium.practice.ipro.tests.MorphologyCountingWho4Test"/>
+            <class name="com.gselenium.practice.ipro.tests.ConcentrationTest"/>
+            <class name="com.gselenium.practice.ipro.tests.ThankYouPageTest"/>
+            <class name="com.gselenium.practice.ipro.tests.LoginFailedTest"/>
+        </classes>
+    </test> <!-- Test-->
+</suite>    <!-- Suite-->
