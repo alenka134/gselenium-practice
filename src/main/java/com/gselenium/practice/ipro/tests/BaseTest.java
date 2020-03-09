@@ -45,7 +45,7 @@ public class BaseTest {
             //./ScreenShots/ tell you that, in your current directory, create folder ScreenShots. dot represents current directory
         }
     }
-    //after class we close the driver
+   //after class we close the driver
    @AfterClass
     public void tearDown() {
        driver.quit();

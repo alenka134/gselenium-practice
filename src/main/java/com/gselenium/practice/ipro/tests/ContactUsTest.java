@@ -36,7 +36,7 @@ public class ContactUsTest extends BaseTest {
             ContactUsPage contactUsPage = new ContactUsPage(driver);
             contactUsPage.fillContactUs("Lena", "Tester", "elena@tester", "1234567891", "mes", "contactTest");
             System.out.println("Test 3: Contact Us form filled without problem");
-            Thread.sleep(500);
+            Thread.sleep(1000);
         } catch (Exception e) {
             Assert.fail(String.format("*****Failed on error %s ", e));
         }

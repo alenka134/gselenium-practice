@@ -1,10 +1,9 @@
 package com.gselenium.practice.ipro.pageobjects;
 
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.ArrayList;
 import java.util.Set;
 
 public class BasePage {
@@ -17,6 +16,21 @@ public class BasePage {
 
     public void click(WebElement el) {
         el.click();
+    }
+    public void click8(WebElement el) {
+        int count =0;
+        for (int i = 0; i < 8; i++){
+            //click the button
+            el.click();
+            count++;
+            //wait 500 millis
+            try {
+                Thread.sleep(500);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+        System.out.println("Element count is: " + count);
     }
     public void click5(WebElement el) {
         el.click();
@@ -45,6 +59,16 @@ public class BasePage {
     public void backToPreviousPage() {
         driver.navigate().back();
     }
+    public void switchBetweenWindow() {
+        ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
+//below code will switch to new tab
+        driver.switchTo().window(tabs.get(1));
+        System.out.println("Text from link is: " + driver.getCurrentUrl());
+//perform whatever actions you want in new tab then close it
+        driver.close();
+//Switch back to your original tab
+        driver.switchTo().window(tabs.get(0));
+    }
 
     public void moveToNewWindow() {
         String main = driver.getWindowHandle();
@@ -55,7 +79,21 @@ public class BasePage {
         driver.close();
         driver.switchTo().window(main);
     }
-
+    public void acceptAlert(WebElement el) {
+        // Switching to Alert
+        Alert alert = driver.switchTo().alert();
+        // Capturing alert message.
+        String alertMessage = driver.switchTo().alert().getText();
+        // Displaying alert message
+        System.out.println(alertMessage);
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        // Accepting alert
+        alert.accept();
+    }
     /*
      * Call this method with your element and a color like (red,green,orange etc...)
      */

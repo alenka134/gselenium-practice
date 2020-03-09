@@ -69,3 +69,11 @@ o
 ?src/main/java/com/gselenium/practice/ipro/pageobjects/Main.java,2/9/290b9f3011f2455c180b93ac06a85ed096b52a59
 t
 Dsrc/main/java/com/gselenium/practice/ipro/tests/LoginFailedTest.java,8/c/8c706f48584685ff0b3c6ea11d330d113b622f1f
+ç
+¶src/main/java/com/gselenium/practice/ipro/Test Results - _Users_alenka_Programming_Java_gselenium-practice_src_main_java_com_gselenium_practice_ipro_Package-Test_Result_ipro_xml.html,b/8/b8ab13347602a3673c2bea7308528037daa57e29
+‚
+Rtarget/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst,8/a/8ae396f369da14bb5c0973286facff8fb2c70d56
+€
+Ptarget/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst,3/d/3da01db98b88a8057c03354880f06dba49d3e795
+T
+$target/maven-archiver/pom.properties,5/a/5acbe6c306dee4498a010b1ca2096853e29e16a4
