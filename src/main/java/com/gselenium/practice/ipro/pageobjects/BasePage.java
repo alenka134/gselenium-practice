@@ -17,9 +17,10 @@ public class BasePage {
     public void click(WebElement el) {
         el.click();
     }
+
     public void click8(WebElement el) {
-        int count =0;
-        for (int i = 0; i < 8; i++){
+        int count = 0;
+        for (int i = 0; i < 8; i++) {
             //click the button
             el.click();
             count++;
@@ -32,6 +33,7 @@ public class BasePage {
         }
         System.out.println("Element count is: " + count);
     }
+
     public void click5(WebElement el) {
         el.click();
         el.click();
@@ -39,11 +41,13 @@ public class BasePage {
         el.click();
         el.click();
     }
+
     public void click3(WebElement el) {
         el.click();
         el.click();
         el.click();
     }
+
     public void fillText(WebElement el, String text) {
         el.clear();
         el.sendKeys(text);
@@ -52,13 +56,7 @@ public class BasePage {
     public String getText(WebElement el) {
         return el.getText();
     }
-    public String getValue(WebElement el) {
-        return el.getTagName();
-    }
 
-    public void backToPreviousPage() {
-        driver.navigate().back();
-    }
     public void switchBetweenWindow() {
         ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
 //below code will switch to new tab
@@ -79,6 +77,7 @@ public class BasePage {
         driver.close();
         driver.switchTo().window(main);
     }
+
     public void acceptAlert(WebElement el) {
         // Switching to Alert
         Alert alert = driver.switchTo().alert();
@@ -94,6 +93,7 @@ public class BasePage {
         // Accepting alert
         alert.accept();
     }
+
     /*
      * Call this method with your element and a color like (red,green,orange etc...)
      */

@@ -26,6 +26,7 @@ public class BaseTest {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("http://www.e-sperm.com/I-PRO/#/");
     }
+
     /*
      * This method will run after each test,
      * it will take screen shot only for tests that failed
@@ -33,11 +34,11 @@ public class BaseTest {
     @AfterMethod
     public void failedTest(ITestResult result) {
         //check if the test failed
-        if (result.getStatus() == ITestResult.FAILURE ){
-            TakesScreenshot ts = (TakesScreenshot)driver;
+        if (result.getStatus() == ITestResult.FAILURE) {
+            TakesScreenshot ts = (TakesScreenshot) driver;
             File srcFile = ts.getScreenshotAs(OutputType.FILE);
             try {
-                FileUtils.copyFile(srcFile, new File("/Users/alenka/Desktop/Screenshots/"+result.getName()+".jpg"));
+                FileUtils.copyFile(srcFile, new File("/Users/alenka/Desktop/Screenshots/" + result.getName() + ".jpg"));
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -45,9 +46,10 @@ public class BaseTest {
             //./ScreenShots/ tell you that, in your current directory, create folder ScreenShots. dot represents current directory
         }
     }
-   //after class we close the driver
-   @AfterClass
+
+    //after class we close the driver
+    @AfterClass
     public void tearDown() {
-       driver.quit();
+        driver.quit();
     }
 }
