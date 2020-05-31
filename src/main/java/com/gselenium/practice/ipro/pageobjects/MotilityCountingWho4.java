@@ -7,9 +7,9 @@ import org.openqa.selenium.support.FindBy;
 
 public class MotilityCountingWho4 extends BasePage {
 
-    @FindBy(xpath = "//h4[text()='MOTILITY TEST - WHO 4TH']")
+    @FindBy(xpath = "//div[text()='MOTILITY TEST - WHO 4TH']")
     WebElement motilityTestHeading;
-    @FindBy(xpath ="//text()[contains(.,'Download the Motility Instructions')]/ancestor::a[1]")
+    @FindBy(xpath = "//text()[contains(.,'Download the Motility Test Instructions')]/ancestor::a[1]")
     WebElement linkPDFMotility4Instruction;
     @FindBy(xpath = "//text()[contains(.,'Download WHO 4TH Guidelines')]/ancestor::a[1]")
     WebElement linkWHO4THGuidelines;
@@ -24,11 +24,12 @@ public class MotilityCountingWho4 extends BasePage {
 
     @FindBy(css = "p[class='blackColor']")
     WebElement clickMotileCounterResult;
+
     @FindBy(xpath = "//button[text()='Save and Continue']")
     WebElement btnSaveAndContinue;
-    @FindBy(xpath ="//button[text()='Reset Count']")
+    @FindBy(xpath = "//button[text()='Reset Count']")
     WebElement btnResetCount;
-    @FindBy(xpath ="//button[text()='Back']")
+    @FindBy(xpath = "//button[text()='Back']")
     WebElement btnBack;
 
     @FindBy(xpath = "//button[text()='Tally Counter']")
@@ -56,14 +57,19 @@ public class MotilityCountingWho4 extends BasePage {
     @FindBy(css = "input[type=text][name='slowProgressive']")
     WebElement inputTextSlowProgressive;
 
+    @FindBy(css = "button[class='swal-button swal-button--confirm']")
+    WebElement approveAlertBtn;
+
     public MotilityCountingWho4(WebDriver driver) {
         super(driver);
     }
+
     public void setMotilityTestHeading() {
         click(motilityTestHeading);
         highlightElementTime(motilityTestHeading, "blue");
         System.out.println("Title Screen is " + motilityTestHeading.getText());
     }
+
     public boolean setMotilityButtons() {
         btnGridOn.isDisplayed();
         click(btnGridOn);
@@ -91,7 +97,7 @@ public class MotilityCountingWho4 extends BasePage {
     }
 
     //Count enabled Video Examples, use Next Field button
-    //Note!!! The count of the fields should be = 8
+    //Note!!! The count of the fields should be = 8 (Motility has 8 videos)
     public void setVideoNextFieldCount() {
         click8(btnNextField);
         highlightElementTime(btnNextField, "orange");
@@ -118,40 +124,47 @@ public class MotilityCountingWho4 extends BasePage {
         System.out.println("The 1st field counted with Label Counter->> " + getText(clickMotileCounterResult));
 
     }
-    //check Save and Continue button:
+
+    //click Save and Continue button
     // Switching to Alert > Capturing alert message > Displaying alert message > Accepting alert.
     public void clickSaveAndContinue() {
         click(btnSaveAndContinue);
-        acceptAlert(btnSaveAndContinue);
+        //click(approveAlertBtn);
+
     }
+
     public boolean setSaveAndContinue() {
         btnSaveAndContinue.isDisplayed();
         highlightElementTime(btnSaveAndContinue, "green");
         return true;
     }
+
     //check Reset Count button
     public boolean setResetCount() {
         btnResetCount.isDisplayed();
         highlightElementTime(btnResetCount, "green");
         return true;
     }
+
     //Check Back button
     public boolean setBack() {
         btnBack.isDisplayed();
         highlightElementTime(btnBack, "green");
         return true;
     }
+
     //Check pdf links (2)
     public void getLinkPDFMotilityInstruction() {
         click(linkPDFMotility4Instruction);
         highlightElementTime(linkPDFMotility4Instruction, "blue");
         switchBetweenWindow();
-        System.out.println("If the 'PDF Motility Instruction'-link is displayed after the valid login: " + linkPDFMotility4Instruction.isDisplayed() +" and user back to the previous tab: " + driver.getCurrentUrl());
+        System.out.println("If the 'PDF Motility Instruction'-link is displayed after the valid login: " + linkPDFMotility4Instruction.isDisplayed() + " and user back to the previous tab: " + driver.getCurrentUrl());
     }
+
     public void getLinkWHO4THGuidelines() {
-        click(linkPDFMotility4Instruction);
-        highlightElementTime(linkPDFMotility4Instruction, "blue");
+        click(linkWHO4THGuidelines);
+        highlightElementTime(linkWHO4THGuidelines, "blue");
         switchBetweenWindow();
-        System.out.println("If the 'WHO 4TH Guidelines'-link is displayed after the valid login: " + linkWHO4THGuidelines.isDisplayed() +" and user back to the previous tab: " + driver.getCurrentUrl());
+        System.out.println("If the 'WHO 4TH Guidelines'-link is displayed after the valid login: " + linkWHO4THGuidelines.isDisplayed() + " and user back to the previous tab: " + driver.getCurrentUrl());
     }
 }

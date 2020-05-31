@@ -15,7 +15,7 @@ public class GridTest {
 
     @Test
     public void setGridTest() throws Exception {
-        //System.setProperty("webdriver.chrome.driver", "/Users/alenka/automation/drivers/chromedriver80");
+        //System.setProperty("webdriver.chrome.driver", "MyCommonData.chromeDriver");
         // driver = new ChromeDriver();
 
         //Create chrome RemoteWebDriver instance instead local ChromeDriver (./chromedriver80)

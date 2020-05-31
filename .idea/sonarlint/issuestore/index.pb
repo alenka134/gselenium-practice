@@ -9,34 +9,6 @@ w
 Gsrc/main/java/com/gselenium/practice/practice4/pageobject/TestPage.java,c/f/cfb62037116a9eaacc1cae5a7648df5f08d26549
 s
 Csrc/main/java/com/gselenium/practice/practice4/tests/TasksTest.java,5/4/54e3cbbbdbe4d424355b0d46b053d4edd04e3517
-
-Osrc/main/java/com/gselenium/practice/solutions/eplay/pageobjects/LoginPage.java,f/b/fbb9292592df717ddb4dacd04cdfd8ca1b613e0e
-~
-Nsrc/main/java/com/gselenium/practice/solutions/eplay/pageobjects/BasePage.java,b/9/b9be8731bba6b4d07437e6eccb9556fd571895c7
-à
-Xsrc/main/java/com/gselenium/practice/solutions/eplay/pageobjects/ForgotPasswordPage.java,6/3/634d2f9c3f0a8926de5cc43e7a1b17fc33ebe705
-y
-Isrc/main/java/com/gselenium/practice/solutions/eplay/tests/LoginTest.java,7/b/7bd2b10a89d91701c2fae2065c8bd29b9e2ef59e
-x
-Hsrc/main/java/com/gselenium/practice/solutions/eplay/tests/BaseTest.java,4/3/43d52d3886ea834edb779081dfc3a5f5f709a410
-}
-Msrc/main/java/com/gselenium/practice/solutions/eplay/tests/ForgotPswTest.java,5/f/5fbce7449c80c991bbef25a20b3f4a8939e3fc19
-É
-Ssrc/main/java/com/gselenium/practice/solutions/eplay/tests/DataProviderExample.java,7/1/714c73584b8f34a94962e0b3ff596c18c71e5578
-x
-Hsrc/main/java/com/gselenium/practice/solutions/eplay/utilites/Excel.java,8/5/85a7b0f59bc59e0144448a1503c028d50d564584
-z
-Jsrc/main/java/com/gselenium/practice/solutions/eplay/pageobjects/Main.java,c/c/cc22db3c1d2ce3da4cd448e88f47ea5edd3d40ac
-Ç
-Rsrc/main/java/com/gselenium/practice/solutions/eplay/Package-Test_Result_eplay.xml,6/5/65799ed5b7c6585d2752b8f91f256cbfefb71c8b
-á
-Wsrc/main/java/com/gselenium/practice/solutions/eplay/Package-Test_Result_eplay_xml.html,6/f/6f036025b8eb9f7966ef1cd8d2f25032fe144316
-}
-Msrc/main/java/com/gselenium/practice/solutions/eplay/Test Results - eplay.xml,5/e/5e1bae975a0c57c12b613368da8fda151c8460c0
-Ç
-Rsrc/main/java/com/gselenium/practice/solutions/eplay/Test Results - LoginTest.html,1/b/1b34fb4c364de8b5d78f01b93f51cf8eccf6bc44
-Ä
-Psrc/main/java/com/gselenium/practice/solutions/eplay/Test Results_eplay_xml.html,6/2/62f0ba73f65002d2b646ceda162365aa160a6c97
 s
 Csrc/main/java/com/gselenium/practice/ipro/pageobjects/BasePage.java,1/b/1b4ca0e81a115eb6e56945755899f65e4938511e
 x
@@ -91,3 +63,61 @@ x
 Hsrc/main/java/com/gselenium/practice/ipro/tests/E2EThankYouPageTest.java,c/7/c796ec36c70c230ae7005ccc72ab392b94dd0792
 q
 Asrc/main/java/com/gselenium/practice/ipro/PackageByClass_ipro.xml,3/8/3896dd40deee7b8d9888224648e04bd27ecd1179
+‚
+±src/main/java/com/gselenium/practice/ipro/Test Results - _Users_alenka_Programming_Java_gselenium-practice_src_main_java_com_gselenium_practice_ipro_PackageByClass_ipro_xml.html,6/c/6cae412730afacc3c02d93d18c5260e41b24a394
+k
+;src/main/java/com/gselenium/practice/aerocube/GridTest.java,1/5/152eb939fbfff8a0eecc3ff3609076fb9cbea818
+Ö
+Usrc/main/java/com/gselenium/practice/solutions/eplay/docker/pageobjects/BasePage.java,a/4/a4f0b9f09af58a95f266afb58eed4319cb9a7054
+è
+_src/main/java/com/gselenium/practice/solutions/eplay/docker/pageobjects/ForgotPasswordPage.java,5/7/57b22dc523549802246ed3145410db03751c0efc
+Ü
+Vsrc/main/java/com/gselenium/practice/solutions/eplay/docker/pageobjects/LoginPage.java,0/c/0c486a2685599a4b6a279dcd0e6a50de56788d3a
+Å
+Qsrc/main/java/com/gselenium/practice/solutions/eplay/docker/pageobjects/Main.java,0/7/07c6208d970e6f8dce49655a3a2d4f6503634153
+
+Osrc/main/java/com/gselenium/practice/solutions/eplay/docker/tests/BaseTest.java,1/9/198190ef08b69924f4e20e55d8d41416bb27480a
+ä
+Zsrc/main/java/com/gselenium/practice/solutions/eplay/docker/tests/DataProviderExample.java,3/7/37aa44c16a503bf44e520d3e98d29f4b742c1f7b
+Ñ
+Tsrc/main/java/com/gselenium/practice/solutions/eplay/docker/tests/ForgotPswTest.java,a/f/af375d02770684c9ab90500a90dac87db53768c2
+Ä
+Psrc/main/java/com/gselenium/practice/solutions/eplay/docker/tests/LoginTest.java,c/6/c6565ebe8a475433e0d9f66a60a1b6a4900a1042
+˙
+…src/main/java/com/gselenium/practice/solutions/eplay/docker/tests/Test Results - _Users_alenka_Programming_Java_gselenium-practice_src_main_java_com_gselenium_practice_ipro_PackageByClass_ipro_xml.html,f/9/f97af7f085809d20c532b64324ebe48a47b850f6
+ô
+Ësrc/main/java/com/gselenium/practice/solutions/eplay/docker/tests/Test Results - _Users_alenka_Programming_Java_gselenium-practice_src_main_java_com_gselenium_practice_solutions_eplay_docker_Package-Test_Result_Docker_eplay_xml.html,4/6/468677be6c9628b80e79f4058d217d114f71330f
+ö
+jsrc/main/java/com/gselenium/practice/solutions/eplay/docker/tests/Test Results - WebDriverManagerTest.html,6/b/6b30cadbd6e1a996233a1e056d99fa83c833c315
+
+Osrc/main/java/com/gselenium/practice/solutions/eplay/docker/utilites/Excel.java,4/f/4f4ab2130d0dd10381191537d42455d69021e49d
+ê
+`src/main/java/com/gselenium/practice/solutions/eplay/docker/Package-Test_Result_Docker_eplay.xml,2/b/2b23a1a0ad52bf1fa7a1880e42dee339dcdf620f
+ã
+[src/main/java/com/gselenium/practice/solutions/eplay/docker/Test Results_Docker - eplay.xml,8/7/87a94821806364a40b3786c3b9b0ac0960466db4
+Ö
+Usrc/main/java/com/gselenium/practice/solutions/eplay/mycomp/pageobjects/BasePage.java,6/8/6861e478bfcdfe5409074f1191114fa7fc4f1479
+è
+_src/main/java/com/gselenium/practice/solutions/eplay/mycomp/pageobjects/ForgotPasswordPage.java,3/b/3bf88471d7b3af72656001594d6a9fa0aedf8187
+Ü
+Vsrc/main/java/com/gselenium/practice/solutions/eplay/mycomp/pageobjects/LoginPage.java,0/5/05c5fc5d2b3c8e6237d57b2c2d9f59bede58d91d
+Å
+Qsrc/main/java/com/gselenium/practice/solutions/eplay/mycomp/pageobjects/Main.java,e/e/eed92e26b28e7ddc8f4aaeb80353f77e03a29a8e
+
+Osrc/main/java/com/gselenium/practice/solutions/eplay/mycomp/tests/BaseTest.java,9/e/9e9e8f60edaea1bf046d8d73467a55245e322b98
+ä
+Zsrc/main/java/com/gselenium/practice/solutions/eplay/mycomp/tests/DataProviderExample.java,1/4/14b3804f0dbc141e247b0d3c0424fd2f24a6da0d
+Ñ
+Tsrc/main/java/com/gselenium/practice/solutions/eplay/mycomp/tests/ForgotPswTest.java,f/5/f5057989f0ef97f886028c544b4166caa363e727
+Ä
+Psrc/main/java/com/gselenium/practice/solutions/eplay/mycomp/tests/LoginTest.java,2/f/2fad89d42fd353235687fcae9ca47a1e4b73aeeb
+í
+·src/main/java/com/gselenium/practice/solutions/eplay/mycomp/tests/Test Results - _Users_alenka_Programming_Java_gselenium-practice_src_main_java_com_gselenium_practice_solutions_eplay_mycomp_Package-Test_Result_eplay_xml.html,6/c/6c6b8847d8751c4ee52f082e633520df4001100f
+
+Osrc/main/java/com/gselenium/practice/solutions/eplay/mycomp/utilites/Excel.java,e/3/e3033f1868400edef89e395d6b4fee415ad94522
+â
+Ysrc/main/java/com/gselenium/practice/solutions/eplay/mycomp/Package-Test_Result_eplay.xml,7/7/77d3527354f82ccca368ddb442e10f172d73a698
+Ñ
+Tsrc/main/java/com/gselenium/practice/solutions/eplay/mycomp/Test Results - eplay.xml,6/3/636ea25c3bbd05309ee52f01f44151229d714836
+y
+Isrc/main/java/com/gselenium/practice/webmanager/WebDriverManagerTest.java,7/a/7a15c7ea4a0b497eb403d754e6c6c2d516740180

@@ -9,6 +9,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 
 import java.io.File;
 import java.io.IOException;
@@ -20,13 +21,12 @@ public class BaseTest {
     //before class we open the driver
     @BeforeClass
     public void setup() {
-        System.setProperty("webdriver.chrome.driver", "/Users/alenka/automation/drivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver", MyCommonData.chromeDriver);
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("http://www.e-sperm.com/I-PRO/#/");
     }
-
     /*
      * This method will run after each test,
      * it will take screen shot only for tests that failed

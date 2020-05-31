@@ -2,56 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1eabf816-7e03-41af-ba74-25c218396dc9" name="Default" comment="added HTML Test Run Package by class parallel">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/aerocube/GridTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/Test Results - _Users_alenka_Programming_Java_gselenium-practice_src_main_java_com_gselenium_practice_solutions_eplay_mycomp_Package-Test_Result_eplay_xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/docker/Package-Test_Result_Docker_eplay.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/docker/Test Results_Docker - eplay.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/docker/tests/Test Results - _Users_alenka_Programming_Java_gselenium-practice_src_main_java_com_gselenium_practice_ipro_PackageByClass_ipro_xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/mycomp/data/input3.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/mycomp/pageobjects/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/mycomp/pageobjects/ForgotPasswordPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/mycomp/pageobjects/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/mycomp/pageobjects/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/mycomp/tests/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/mycomp/tests/DataProviderExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/mycomp/tests/ForgotPswTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/mycomp/tests/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/mycomp/utilites/Excel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/webmanager/WebDriverManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/MyCommonData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/634d2f9c3f0a8926de5cc43e7a1b17fc33ebe705" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b9be8731bba6b4d07437e6eccb9556fd571895c7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fbb9292592df717ddb4dacd04cdfd8ca1b613e0e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/Package-Test_Result_eplay.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/mycomp/Package-Test_Result_eplay.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/Package-Test_Result_eplay_xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/docker/tests/Test Results - _Users_alenka_Programming_Java_gselenium-practice_src_main_java_com_gselenium_practice_solutions_eplay_docker_Package-Test_Result_Docker_eplay_xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/Test Results - LoginTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/docker/tests/Test Results - WebDriverManagerTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/Test Results - eplay.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/mycomp/Test Results - eplay.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/Test Results_eplay_xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/mycomp/tests/Test Results - _Users_alenka_Programming_Java_gselenium-practice_src_main_java_com_gselenium_practice_solutions_eplay_mycomp_Package-Test_Result_eplay_xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/pageobjects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/docker/pageobjects/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/pageobjects/ForgotPasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/docker/pageobjects/ForgotPasswordPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/pageobjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/docker/pageobjects/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/pageobjects/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/docker/pageobjects/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/docker/tests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/tests/DataProviderExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/docker/tests/DataProviderExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/tests/ForgotPswTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/docker/tests/ForgotPswTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/docker/tests/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/utilites/Excel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/docker/utilites/Excel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gselenium/practice/practice4/pageobject/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gselenium/practice/practice4/pageobject/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gselenium/practice/practice4/pageobject/TasksPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gselenium/practice/practice4/pageobject/TasksPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gselenium/practice/practice4/pageobject/TestPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gselenium/practice/practice4/pageobject/TestPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gselenium/practice/practice4/tests/TasksTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gselenium/practice/practice4/tests/TasksTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gselenium/practice/solutions/eplay/pageobjects/BasePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gselenium/practice/solutions/eplay/pageobjects/ForgotPasswordPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gselenium/practice/solutions/eplay/pageobjects/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gselenium-practice-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/aerocube/GridTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/aerocube/GridTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/PackageByClass_ipro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/PackageByClass_ipro.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/Test Results - _Users_alenka_Programming_Java_gselenium-practice_src_main_java_com_gselenium_practice_ipro_Package-Test_Result_ipro_xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/Test Results - _Users_alenka_Programming_Java_gselenium-practice_src_main_java_com_gselenium_practice_ipro_Package-Test_Result_ipro_xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/Test Results - _Users_alenka_Programming_Java_gselenium-practice_src_main_java_com_gselenium_practice_ipro_PackageByClass_ipro_xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/Test Results - _Users_alenka_Programming_Java_gselenium-practice_src_main_java_com_gselenium_practice_ipro_PackageByClass_ipro_xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/Test Results - _Users_alenka_Programming_Java_gselenium-practice_src_main_java_com_gselenium_practice_solutions_eplay_mycomp_Package-Test_Result_eplay_xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/docker/tests/Test Results - _Users_alenka_Programming_Java_gselenium-practice_src_main_java_com_gselenium_practice_ipro_Package-Test_Result_ipro_xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/pageobjects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/pageobjects/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/pageobjects/ConcentrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/pageobjects/ConcentrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/pageobjects/IntroWho4AutoVisionPap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/pageobjects/IntroWho4AutoVisionPap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/pageobjects/LoginPagePass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/pageobjects/LoginPagePass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/pageobjects/MorphologyCountingWho4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/pageobjects/MorphologyCountingWho4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/pageobjects/MotilityCountingWho4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/pageobjects/MotilityCountingWho4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/ConcentrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/ConcentrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/IntroWho4AutoVisionPapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/IntroWho4AutoVisionPapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/LoginPassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/LoginPassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/MorphologyCountingWho4Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/MorphologyCountingWho4Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/MotilityCountingWho4Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/MotilityCountingWho4Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/docker/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/docker/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/docker/tests/Test Results - _Users_alenka_Programming_Java_gselenium-practice_src_main_java_com_gselenium_practice_ipro_PackageByClass_ipro_xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/docker/tests/Test Results - _Users_alenka_Programming_Java_gselenium-practice_src_main_java_com_gselenium_practice_ipro_PackageByClass_ipro_xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/mycomp/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/mycomp/tests/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/docker/tests" openResultsInEditor="true" userTempatePath="" />
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro" openResultsInEditor="true" userTempatePath="" />
   <component name="FavoritesManager">
     <favorites_list name="gselenium-practice" />
   </component>
@@ -88,7 +73,7 @@
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/docker" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
@@ -115,25 +100,9 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/gselenium/practice" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/alenka/Programming/Java/gselenium-practice/src/main/java/com/gselenium/practice/ipro/Package-Test_Result_ipro.xml">
+  <component name="RunManager" selected="TestNG.E2EThankYouPageTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GridTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="gselenium-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gselenium.practice.aerocube.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.gselenium.practice.aerocube" />
-      <option name="MAIN_CLASS_NAME" value="com.gselenium.practice.aerocube.GridTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,16 +114,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebDriverManagerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ConcentrationTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="gselenium-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gselenium.practice.webmanager.*" />
+          <option name="PATTERN" value="com.gselenium.practice.ipro.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.gselenium.practice.webmanager" />
-      <option name="MAIN_CLASS_NAME" value="com.gselenium.practice.webmanager.WebDriverManagerTest" />
+      <option name="PACKAGE_NAME" value="com.gselenium.practice.ipro.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.gselenium.practice.ipro.tests.ConcentrationTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E2EThankYouPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="gselenium-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gselenium.practice.ipro.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gselenium.practice.ipro.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.gselenium.practice.ipro.tests.E2EThankYouPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPassTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="gselenium-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gselenium.practice.ipro.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gselenium.practice.ipro.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.gselenium.practice.ipro.tests.LoginPassTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -185,17 +190,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/alenka/Programming/Java/gselenium-practice/src/main/java/com/gselenium/practice/solutions/eplay/docker/Test Results_Docker - eplay.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="gselenium-practice" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/docker/Test Results_Docker - eplay.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -206,19 +200,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.GridTest" />
-      <item itemvalue="TestNG./Users/alenka/Programming/Java/gselenium-practice/src/main/java/com/gselenium/practice/solutions/eplay/docker/Test Results_Docker - eplay.xml" />
-      <item itemvalue="TestNG.WebDriverManagerTest" />
-      <item itemvalue="TestNG./Users/alenka/Programming/Java/gselenium-practice/src/main/java/com/gselenium/practice/ipro/PackageByClass_ipro.xml" />
       <item itemvalue="TestNG./Users/alenka/Programming/Java/gselenium-practice/src/main/java/com/gselenium/practice/ipro/Package-Test_Result_ipro.xml" />
+      <item itemvalue="TestNG./Users/alenka/Programming/Java/gselenium-practice/src/main/java/com/gselenium/practice/ipro/PackageByClass_ipro.xml" />
+      <item itemvalue="TestNG.ConcentrationTest" />
+      <item itemvalue="TestNG.LoginPassTest" />
+      <item itemvalue="TestNG.E2EThankYouPageTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/alenka/Programming/Java/gselenium-practice/src/main/java/com/gselenium/practice/ipro/Package-Test_Result_ipro.xml" />
+        <item itemvalue="TestNG.E2EThankYouPageTest" />
         <item itemvalue="TestNG./Users/alenka/Programming/Java/gselenium-practice/src/main/java/com/gselenium/practice/ipro/PackageByClass_ipro.xml" />
-        <item itemvalue="TestNG.WebDriverManagerTest" />
-        <item itemvalue="TestNG./Users/alenka/Programming/Java/gselenium-practice/src/main/java/com/gselenium/practice/solutions/eplay/docker/Test Results_Docker - eplay.xml" />
-        <item itemvalue="JUnit.GridTest" />
+        <item itemvalue="TestNG.LoginPassTest" />
+        <item itemvalue="TestNG./Users/alenka/Programming/Java/gselenium-practice/src/main/java/com/gselenium/practice/ipro/Package-Test_Result_ipro.xml" />
+        <item itemvalue="TestNG.ConcentrationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -324,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585163868872</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added HTML Test Run Package by class parallel">
+      <created>1586726311708</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1586726311708</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -351,6 +352,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1585325023914" />
+    <state x="0" y="71" key="#Project_Structure" timestamp="1586727722616">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="0" y="71" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1586727722616" />
+    <state x="0" y="87" key="#Project_Structure/0.23.1440.814@0.23.1440.814" timestamp="1586726674193" />
     <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1582919635098">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -359,14 +365,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="426" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1586718698248" />
-    <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1583500211248">
+    <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1589265602345">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1583500211248" />
-    <state x="124" y="274" width="595" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1581882823014">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state x="124" y="274" width="595" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.797@0.23.1440.797" timestamp="1581882823014" />
+    <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1589265602345" />
     <state x="329" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583864825659">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -375,93 +377,101 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="483" y="166" width="854" height="568" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1585592665695" />
-    <state x="309" y="105" width="1131" height="795" key="CommitChangelistDialog2" timestamp="1585163868505">
+    <state x="309" y="105" width="1131" height="795" key="CommitChangelistDialog2" timestamp="1586726311390">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="309" y="105" width="1131" height="795" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1585163868505" />
-    <state width="828" height="202" key="GridCell.Tab.0.bottom" timestamp="1586721007977">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state x="309" y="105" width="1131" height="795" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586726311390" />
+    <state width="1398" height="386" key="GridCell.Tab.0.bottom" timestamp="1590950048672">
+      <screen x="0" y="23" width="1440" height="829" />
     </state>
-    <state width="1398" height="347" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586720553029" />
+    <state width="1398" height="386" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590947984551" />
     <state width="1004" height="359" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1583953335874" />
-    <state width="1004" height="287" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1583938182907" />
-    <state width="824" height="239" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1583649019688" />
-    <state width="1398" height="388" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1585596669653" />
-    <state width="1398" height="388" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1585600494038" />
-    <state width="670" height="197" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1585684840556" />
-    <state width="670" height="197" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1585770401140" />
+    <state width="735" height="254" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1586806123315" />
+    <state width="685" height="317" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1589314198649" />
+    <state width="930" height="317" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1589290734625" />
+    <state width="1398" height="295" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1590912301822" />
+    <state width="1398" height="295" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1590912314408" />
+    <state width="685" height="317" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1589885489194" />
     <state width="824" height="239" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1583571770241" />
     <state width="1398" height="292" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1585425684313" />
     <state width="828" height="202" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1586721007977" />
-    <state width="828" height="202" key="GridCell.Tab.0.center" timestamp="1586721007977">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state width="1398" height="386" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1590950048672" />
+    <state width="1398" height="386" key="GridCell.Tab.0.center" timestamp="1590950048672">
+      <screen x="0" y="23" width="1440" height="829" />
     </state>
-    <state width="1398" height="347" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586720553027" />
+    <state width="1398" height="386" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1590947984550" />
     <state width="1004" height="359" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1583953335873" />
-    <state width="1004" height="287" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1583938182906" />
-    <state width="824" height="239" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1583649019687" />
-    <state width="1398" height="388" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1585596669652" />
-    <state width="1398" height="388" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1585600494037" />
-    <state width="670" height="197" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1585684840555" />
-    <state width="670" height="197" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1585770401139" />
+    <state width="735" height="254" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1586806123314" />
+    <state width="685" height="317" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1589314198648" />
+    <state width="930" height="317" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1589290734624" />
+    <state width="1398" height="295" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1590912301821" />
+    <state width="1398" height="295" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1590912314406" />
+    <state width="685" height="317" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1589885489194" />
     <state width="824" height="239" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1583571770240" />
     <state width="1398" height="292" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1585425684313" />
     <state width="828" height="202" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1586721007977" />
-    <state width="828" height="202" key="GridCell.Tab.0.left" timestamp="1586721007976">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state width="1398" height="386" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1590950048672" />
+    <state width="1398" height="386" key="GridCell.Tab.0.left" timestamp="1590950048671">
+      <screen x="0" y="23" width="1440" height="829" />
     </state>
-    <state width="1398" height="347" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586720553027" />
+    <state width="1398" height="386" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1590947984549" />
     <state width="1004" height="359" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1583953335873" />
-    <state width="1004" height="287" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1583938182906" />
-    <state width="824" height="239" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1583649019686" />
-    <state width="1398" height="388" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1585596669652" />
-    <state width="1398" height="388" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1585600494036" />
-    <state width="670" height="197" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1585684840553" />
-    <state width="670" height="197" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1585770401137" />
+    <state width="735" height="254" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1586806123314" />
+    <state width="685" height="317" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1589314198648" />
+    <state width="930" height="317" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1589290734623" />
+    <state width="1398" height="295" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1590912301820" />
+    <state width="1398" height="295" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1590912314405" />
+    <state width="685" height="317" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1589885489193" />
     <state width="824" height="239" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1583571770240" />
     <state width="1398" height="292" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1585425684312" />
     <state width="828" height="202" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1586721007976" />
-    <state width="828" height="202" key="GridCell.Tab.0.right" timestamp="1586721007977">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state width="1398" height="386" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1590950048671" />
+    <state width="1398" height="386" key="GridCell.Tab.0.right" timestamp="1590950048672">
+      <screen x="0" y="23" width="1440" height="829" />
     </state>
-    <state width="1398" height="347" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586720553028" />
+    <state width="1398" height="386" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1590947984550" />
     <state width="1004" height="359" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1583953335874" />
-    <state width="1004" height="287" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1583938182907" />
-    <state width="824" height="239" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1583649019688" />
-    <state width="1398" height="388" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1585596669652" />
-    <state width="1398" height="388" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1585600494037" />
-    <state width="670" height="197" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1585684840555" />
-    <state width="670" height="197" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1585770401140" />
+    <state width="735" height="254" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1586806123314" />
+    <state width="685" height="317" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1589314198648" />
+    <state width="930" height="317" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1589290734625" />
+    <state width="1398" height="295" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1590912301821" />
+    <state width="1398" height="295" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1590912314407" />
+    <state width="685" height="317" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1589885489194" />
     <state width="824" height="239" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1583571770241" />
     <state width="1398" height="292" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1585425684313" />
     <state width="828" height="202" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1586721007977" />
-    <state width="1398" height="291" key="GridCell.Tab.1.bottom" timestamp="1585597659638">
-      <screen x="0" y="23" width="1440" height="806" />
+    <state width="1398" height="386" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1590950048672" />
+    <state width="1398" height="295" key="GridCell.Tab.1.bottom" timestamp="1590941293911">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="350" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585594609909" />
+    <state width="1398" height="295" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590941293911" />
     <state width="1398" height="292" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1582275024345" />
-    <state width="1398" height="291" key="GridCell.Tab.1.bottom/0.23.1440.806@0.23.1440.806" timestamp="1585597659638" />
+    <state width="1398" height="291" key="GridCell.Tab.1.bottom/0.23.1440.798@0.23.1440.798" timestamp="1586806123266" />
+    <state width="1398" height="295" key="GridCell.Tab.1.bottom/0.23.1440.806@0.23.1440.806" timestamp="1590912302557" />
     <state width="1398" height="292" key="GridCell.Tab.1.bottom/0.23.1440.814@0.23.1440.814" timestamp="1585425684314" />
-    <state width="1398" height="291" key="GridCell.Tab.1.center" timestamp="1585597659637">
-      <screen x="0" y="23" width="1440" height="806" />
+    <state width="1398" height="295" key="GridCell.Tab.1.center" timestamp="1590941293910">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="350" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1585594609908" />
+    <state width="1398" height="295" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1590941293910" />
     <state width="1398" height="292" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1582275024345" />
-    <state width="1398" height="291" key="GridCell.Tab.1.center/0.23.1440.806@0.23.1440.806" timestamp="1585597659637" />
+    <state width="1398" height="291" key="GridCell.Tab.1.center/0.23.1440.798@0.23.1440.798" timestamp="1586806123265" />
+    <state width="1398" height="295" key="GridCell.Tab.1.center/0.23.1440.806@0.23.1440.806" timestamp="1590912302557" />
     <state width="1398" height="292" key="GridCell.Tab.1.center/0.23.1440.814@0.23.1440.814" timestamp="1585425684314" />
-    <state width="1398" height="291" key="GridCell.Tab.1.left" timestamp="1585597659637">
-      <screen x="0" y="23" width="1440" height="806" />
+    <state width="1398" height="295" key="GridCell.Tab.1.left" timestamp="1590941293910">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="350" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1585594609907" />
+    <state width="1398" height="295" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1590941293910" />
     <state width="1398" height="292" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1582275024344" />
-    <state width="1398" height="291" key="GridCell.Tab.1.left/0.23.1440.806@0.23.1440.806" timestamp="1585597659637" />
+    <state width="1398" height="291" key="GridCell.Tab.1.left/0.23.1440.798@0.23.1440.798" timestamp="1586806123265" />
+    <state width="1398" height="295" key="GridCell.Tab.1.left/0.23.1440.806@0.23.1440.806" timestamp="1590912302556" />
     <state width="1398" height="292" key="GridCell.Tab.1.left/0.23.1440.814@0.23.1440.814" timestamp="1585425684313" />
-    <state width="1398" height="291" key="GridCell.Tab.1.right" timestamp="1585597659637">
-      <screen x="0" y="23" width="1440" height="806" />
+    <state width="1398" height="295" key="GridCell.Tab.1.right" timestamp="1590941293911">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="350" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1585594609908" />
+    <state width="1398" height="295" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1590941293911" />
     <state width="1398" height="292" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1582275024345" />
-    <state width="1398" height="291" key="GridCell.Tab.1.right/0.23.1440.806@0.23.1440.806" timestamp="1585597659637" />
+    <state width="1398" height="291" key="GridCell.Tab.1.right/0.23.1440.798@0.23.1440.798" timestamp="1586806123266" />
+    <state width="1398" height="295" key="GridCell.Tab.1.right/0.23.1440.806@0.23.1440.806" timestamp="1590912302557" />
     <state width="1398" height="292" key="GridCell.Tab.1.right/0.23.1440.814@0.23.1440.814" timestamp="1585425684314" />
     <state x="258" y="112" key="Maven.ArtifactSearchDialog" timestamp="1585513206429">
       <screen x="0" y="0" width="1440" height="900" />
@@ -472,26 +482,30 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="0" y="27" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586550485249" />
-    <state x="0" y="47" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1581410827501" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1585163871744">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="320" y="198" key="Vcs.Push.Dialog.v2" timestamp="1590951355234">
+      <screen x="0" y="23" width="1440" height="829" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1585163871744" />
-    <state width="720" height="450" key="XDebugger.FullValuePopup" timestamp="1585592778778">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586726320365" />
+    <state x="320" y="198" key="Vcs.Push.Dialog.v2/0.23.1440.829@0.23.1440.829" timestamp="1590951355234" />
+    <state width="720" height="403" key="XDebugger.FullValuePopup" timestamp="1590911867224">
+      <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state width="720" height="450" key="XDebugger.FullValuePopup/0.0.1440.900@0.0.1440.900" timestamp="1585592778778" />
-    <state x="397" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1584963552121">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state x="397" y="261" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1583500279553" />
-    <state x="397" y="254" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1584963552121" />
-    <state x="525" y="284" key="export.test.results" timestamp="1586717566985">
+    <state width="720" height="403" key="XDebugger.FullValuePopup/0.23.1440.806@0.23.1440.806" timestamp="1590911867224" />
+    <state x="397" y="261" key="com.intellij.ide.util.TipDialog" timestamp="1590911126995">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="525" y="284" key="export.test.results/0.0.1440.900@0.0.1440.900" timestamp="1586717566985" />
+    <state x="397" y="261" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1590911126995" />
+    <state x="397" y="254" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1584963552121" />
+    <state x="397" y="258" key="com.intellij.ide.util.TipDialog/0.23.1440.811@0.23.1440.811" timestamp="1586806232209" />
+    <state x="397" y="258" key="com.intellij.ide.util.TipDialog/0.23.1440.812@0.23.1440.812" timestamp="1587494401851" />
+    <state x="525" y="285" key="export.test.results" timestamp="1590949989658">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state x="525" y="284" key="export.test.results/0.0.1440.900@0.0.1440.900" timestamp="1590045246350" />
     <state x="525" y="274" key="export.test.results/0.23.1440.797@0.23.1440.797" timestamp="1583940847562" />
     <state x="525" y="274" key="export.test.results/0.23.1440.798@0.23.1440.798" timestamp="1583938304242" />
+    <state x="525" y="285" key="export.test.results/0.23.1440.829@0.23.1440.829" timestamp="1590949989658" />
     <state x="167" y="180" width="1273" height="494" key="find.popup" timestamp="1586548589798">
       <screen x="0" y="23" width="1440" height="816" />
     </state>
@@ -502,17 +516,13 @@
     </state>
     <state x="0" y="44" key="new project wizard/0.23.1440.814@0.23.1440.814" timestamp="1586202029763" />
     <state x="0" y="44" key="new project wizard/0.23.1440.821@0.23.1440.821" timestamp="1586545294730" />
-    <state x="426" y="73" key="refactoring.ChangeSignatureDialog" timestamp="1582018728928">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="426" y="73" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1582018728928" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/docker/tests/BaseTest.java</url>
-          <line>41</line>
+          <line>43</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -522,8 +532,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/docker/tests/BaseTest.java</url>
-          <line>30</line>
+          <line>31</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/BaseTest.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/BaseTest.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,6 +1,7 @@
 package com.gselenium.practice.solutions.eplay.docker.tests;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.log4j.LogManager;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -26,7 +27,7 @@ public class BaseTest {
     //before class we open the driver
     @BeforeClass
     public void setup() throws MalformedURLException {
-//        System.setProperty("webdriver.chrome.driver", "/Users/alenka/automation/drivers/chromedriver80");
+//        System.setProperty("webdriver.chrome.driver", "MyCommonData.chromeDriver");
         //Create chrome RemoteWebDriver instance
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setBrowserName("chrome");
@@ -34,6 +35,7 @@ public class BaseTest {
         capabilities.setCapability("enableVNC", true);
         capabilities.setCapability(CapabilityType.TAKES_SCREENSHOT, true);
         capabilities.setCapability("enableVideo", true);
+        capabilities.setCapability("enableLog", true);
         capabilities.setCapability("videoName", this.getClass().getName() + "_" +
                 LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy_MM_dd_HH_mm_ss")) + ".mp4");
         capabilities.setCapability("screenResolution", "1280x1024x24");

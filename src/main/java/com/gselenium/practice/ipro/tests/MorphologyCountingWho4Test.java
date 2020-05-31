@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class MorphologyCountingWho4Test extends BaseTest {
     @Test(priority = 1, description = "verify Link PDFMotility Instruction", enabled = true)
-    public void getLinkPDFMorphologyInstructionTest() {
+    public void getLinkPDFMorphologyInstructionTest() throws InterruptedException {
         LoginPagePass loginPagePass = new LoginPagePass(driver);
         loginPagePass.login("elena@mes-ltd.com", "123456");
 
@@ -19,14 +19,18 @@ public class MorphologyCountingWho4Test extends BaseTest {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        introWho4AutoVisionPap.setNoReplicateWho4();
-        introWho4AutoVisionPap.setNoReplicateWhoAutomatic();
+        //    introWho4AutoVisionPap.checkAlert();
+        //    introWho4AutoVisionPap.switchBetweenWindow();
+        //   introWho4AutoVisionPap.setNoReplicateWho4();
+
+        //   introWho4AutoVisionPap.setNoReplicateWhoAutomatic();
         introWho4AutoVisionPap.setDeviceTypeSqaVision();
-        introWho4AutoVisionPap.setStainingMethodPapanicolaou();
+        //   introWho4AutoVisionPap.setStainingMethodPapanicolaou();
 
         MotilityCountingWho4 motilityCountingWho4 = new MotilityCountingWho4(driver);
-        motilityCountingWho4.setTallyCounter();
+        motilityCountingWho4.setLabelCounter();
         motilityCountingWho4.clickSaveAndContinue();
+
 
         MorphologyCountingWho4 morphologyCountingWho4 = new MorphologyCountingWho4(driver);
         morphologyCountingWho4.getLinkPDFMorphologyInstruction();
@@ -34,7 +38,7 @@ public class MorphologyCountingWho4Test extends BaseTest {
     }
 
     @Test(priority = 2, description = "check Page title", enabled = true)
-    public void setMorphologyTestHeadingTest() {
+    public void setMorphologyTestHeadingTest() throws InterruptedException {
         MorphologyCountingWho4 morphologyCountingWho4 = new MorphologyCountingWho4(driver);
         morphologyCountingWho4.setMorphologyTestHeading();
         System.out.println("Test 2: check Morphology page title");
@@ -59,7 +63,7 @@ public class MorphologyCountingWho4Test extends BaseTest {
     @Test(priority = 5, description = "Count enabled Video Examples, use Next Field button", enabled = true)
     public void setVideoNextFieldCountTest() {
         MorphologyCountingWho4 morphologyCountingWho4 = new MorphologyCountingWho4(driver);
-        morphologyCountingWho4.setVideoNextFieldCount();
+        morphologyCountingWho4.setVideoNextPapFieldCount();
         System.out.println("Test 5: Count enabled Video Examples, use Next Field button");
     }
 
@@ -76,12 +80,12 @@ public class MorphologyCountingWho4Test extends BaseTest {
         }
     }
 
-    @Test(priority = 7, description = "jump to Morphology Counter", enabled = true)
+    @Test(priority = 7, description = "jump to Concentration Page", enabled = true)
     public void setSaveAndContinueTest() {
         try {
             MorphologyCountingWho4 morphologyCountingWho4 = new MorphologyCountingWho4(driver);
             morphologyCountingWho4.clickSaveAndContinue();
-            System.out.println("Test 7: jump to Final Page");
+            System.out.println("Test 7: jump to Concentration Page");
         } catch (Exception e) {
             Assert.fail(String.format("*****Failed on error %s " + " and the picture you can found: /Users/alenka/Desktop/Screenshots/testCaseName .jpg", e));
         }

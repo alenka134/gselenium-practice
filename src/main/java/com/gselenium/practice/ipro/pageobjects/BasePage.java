@@ -2,6 +2,8 @@ package com.gselenium.practice.ipro.pageobjects;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.ArrayList;
 import java.util.Set;
@@ -18,6 +20,7 @@ public class BasePage {
         el.click();
     }
 
+//only for Motility (Next fields counts = 8)
     public void click8(WebElement el) {
         int count = 0;
         for (int i = 0; i < 8; i++) {
@@ -51,6 +54,7 @@ public class BasePage {
     public void fillText(WebElement el, String text) {
         el.clear();
         el.sendKeys(text);
+
     }
 
     public String getText(WebElement el) {
@@ -61,7 +65,7 @@ public class BasePage {
         ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
 //below code will switch to new tab
         driver.switchTo().window(tabs.get(1));
-        System.out.println("Text from link is: " + driver.getCurrentUrl());
+        System.out.println("Text from link is: " + driver.getCurrentUrl() + "Page title is: " + driver.getTitle());
 //perform whatever actions you want in new tab then close it
         driver.close();
 //Switch back to your original tab
@@ -77,7 +81,16 @@ public class BasePage {
         driver.close();
         driver.switchTo().window(main);
     }
-
+    public void checkAlert() {
+        try {
+            WebDriverWait wait = new WebDriverWait(driver, 2);
+            wait.until(ExpectedConditions.alertIsPresent());
+            Alert alert = driver.switchTo().alert();
+            alert.accept();
+        } catch (Exception e) {
+            //exception handling
+        }
+    }
     public void acceptAlert(WebElement el) {
         // Switching to Alert
         Alert alert = driver.switchTo().alert();
@@ -93,7 +106,20 @@ public class BasePage {
         // Accepting alert
         alert.accept();
     }
+    // Switching to Alert
+    public void dismissAlert() throws InterruptedException {
+        Alert alert = driver.switchTo().alert();
 
+        // Capturing alert message.
+        String alertMessage = driver.switchTo().alert().getText();
+
+        // Displaying alert message
+        System.out.println(alertMessage);
+        Thread.sleep(5000);
+
+        // Accepting alert
+        alert.dismiss();
+    }
     /*
      * Call this method with your element and a color like (red,green,orange etc...)
      */

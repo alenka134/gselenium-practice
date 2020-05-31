@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class MorphologyCountingWho4 extends BasePage {
 
-    @FindBy(xpath = "//h4[text()='MORPHOLOGY TEST - PAPANICOLAOU']")
+    @FindBy(xpath = "//h2[text()='MORPHOLOGY TEST - PAPANICOLAOU']")
     WebElement morphologyTestHeading;
     @FindBy(xpath = "//text()[.='Download the Morphology Test Instructions']/ancestor::a[1]")
     WebElement linkPDFMorphology4Instruction;
@@ -36,26 +36,31 @@ public class MorphologyCountingWho4 extends BasePage {
     @FindBy(xpath = "//button[text()='NEXT FIELD']")
     WebElement btnNextField;
 
-    @FindBy(xpath = "/html[1]/body[1]/app-root[1]/div[2]/app-proficiency[1]/aw-wizard[1]/div[1]/app-morphologycounting[1]/div[1]/div[2]/div[2]/div[2]/div[1]/ul[1]/li[1]/button[1]")
+    @FindBy(xpath = "/html[1]/body[1]/app-root[1]/div[2]/app-proficiency[1]/aw-wizard[1]/div[1]/app-morphologycounting[1]/div[1]/div[2]/div[3]/div[2]/div[1]/ul[1]/li[1]/button[1]")
     WebElement clickNormal;
-    @FindBy(xpath = "/html[1]/body[1]/app-root[1]/div[2]/app-proficiency[1]/aw-wizard[1]/div[1]/app-morphologycounting[1]/div[1]/div[2]/div[2]/div[2]/div[1]/ul[1]/li[2]/button[1]")
+    @FindBy(xpath = "/html[1]/body[1]/app-root[1]/div[2]/app-proficiency[1]/aw-wizard[1]/div[1]/app-morphologycounting[1]/div[1]/div[2]/div[3]/div[2]/div[1]/ul[1]/li[2]/button[1]")
     WebElement clickAbNormal;
 
-    @FindBy(xpath = "/html/body/app-root/div[2]/app-proficiency/aw-wizard/div/app-morphologycounting/div/div[2]/div[2]/div[2]/div[1]/ul/li[1]/p/span/input")
+    @FindBy(xpath = "/html/body/app-root/div[2]/app-proficiency/aw-wizard/div/app-morphologycounting/div/div[2]/div[3]/div[2]/div[1]/ul/li[1]/p/span/input")
     WebElement inputTextNormal;
-   @FindBy(xpath = "/html/body/app-root/div[2]/app-proficiency/aw-wizard/div/app-morphologycounting/div/div[2]/div[2]/div[2]/div[1]/ul/li[2]/p/span/input")
+   @FindBy(xpath = "/html/body/app-root/div[2]/app-proficiency/aw-wizard/div/app-morphologycounting/div/div[2]/div[3]/div[2]/div[1]/ul/li[2]/p/span/input")
     WebElement inputTextAbNormal;
+
+    @FindBy(css = "button[class='swal-button swal-button--confirm']")
+    WebElement approveAlertBtn;
 
     public MorphologyCountingWho4(WebDriver driver) {
         super(driver);
     }
 
-    public void setMorphologyTestHeading() {
+    public void setMorphologyTestHeading() throws InterruptedException {
+        Thread.sleep(2000);
         click(morphologyTestHeading);
         highlightElementTime(morphologyTestHeading, "blue");
         System.out.println("Title Screen is " + morphologyTestHeading.getText());
     }
-    public void getLinkPDFMorphologyInstruction() {
+    public void getLinkPDFMorphologyInstruction() throws InterruptedException{
+        Thread.sleep(2000);
         click(linkPDFMorphology4Instruction);
         highlightElementTime(linkPDFMorphology4Instruction, "blue");
         switchBetweenWindow();
@@ -82,12 +87,24 @@ public class MorphologyCountingWho4 extends BasePage {
         System.out.println("The 1st field counted with Tally Counter ->> " + getText(clickMorphologyCounterResult));
     }
     //Count enabled Video Examples, use Next Field button
-    //Note!!! The count of the fields should be = 8
-    public void setVideoNextFieldCount() {
+    //Note!!! The count of the fields Diff Morph count should be = 66
+    public void setVideoNextDiffFieldCount() {
         click8(btnNextField);
         highlightElementTime(btnNextField, "orange");
     }
 
+    //Count enabled Video Examples, use Next Field button
+    //Note!!! The count of the fields Diff Morph count should be = 68
+    public void setVideoNextPapFieldCount() {
+        click8(btnNextField);
+        highlightElementTime(btnNextField, "orange");
+    }
+    //Count enabled Video Examples, use Next Field button
+    //Note!!! The count of the fields Diff Morph count should be = 33
+    public void setVideoNextPreFieldCount() {
+        click8(btnNextField);
+        highlightElementTime(btnNextField, "orange");
+    }
     //reset count --> to zerolizing it and enter integers to Normal and Abnormal fields
     public void setLabelCounter() {
         click(btnLabelCounter);
@@ -107,7 +124,8 @@ public class MorphologyCountingWho4 extends BasePage {
     // Switching to Alert > Capturing alert message > Displaying alert message > Accepting alert.
     public void clickSaveAndContinue() {
         click(btnSaveAndContinue);
-        acceptAlert(btnSaveAndContinue);
+     // acceptAlert(btnSaveAndContinue);
+       // click(approveAlertBtn);
     }
     public boolean setSaveAndContinue() {
         btnSaveAndContinue.isDisplayed();

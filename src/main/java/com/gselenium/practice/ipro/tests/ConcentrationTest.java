@@ -11,14 +11,15 @@ public class ConcentrationTest extends BaseTest {
         System.out.println("Test 1: verify Heading of the Concentration Assessment page");
     }
     @Test(priority = 2, description = "verify PDF link", enabled = true)
-    public void getLinkPDFConcentrationTestInstructionTest() {
+    public void getLinkPDFConcentrationTestInstructionTest() throws InterruptedException {
         ConcentrationPage concentrationPage = new ConcentrationPage(driver);
         concentrationPage.getLinkPDFConcentrationTestInstruction();
         System.out.println("Test 2: verify PDF Concentration Assessment link");
     }
     @Test(priority = 3, description = "verify concentration input, save data and navigate to final test page", enabled = true)
-    public void setConcentrationAssessmentTest() {
+    public void setConcentrationAssessmentTest() throws InterruptedException {
         ConcentrationPage concentrationPage = new ConcentrationPage(driver);
+      //  concentrationPage.setConcentrationPageTestHeading();
         concentrationPage.setConcentrationAssessment();
         System.out.println("Test 3: verify concentration input and navigate to final test page");
     }

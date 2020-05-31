@@ -20,17 +20,17 @@ public class HomePageTest extends BaseTest {
         System.out.println("Test #2 --> Print header text and version is displayed: " + homePage.getTopPadHeader());
     }
 
-    @Test(priority = 3, description = "verify home page name")
+    @Test(priority = 3, description = "verify home page title")
     public void verifyHomepageTitle() {
         String title = driver.getTitle();
-        Assert.assertEquals(title, "IPRO", "Test #2 --> Title is not matched");
+        Assert.assertEquals(title, "iPRO", "Test #3 --> Title is not matched");
         System.out.println("Test #3 --> Print Home Page title: " + title);
     }
 
     @Test(priority = 4, description = "verify the 1st part from Home page text")
     public void verifyHomepageText() {
-        String text = driver.findElement(By.xpath("//li[contains(text(),'The I-PRO Proficiency scheme consists of both samples and online assessment.')]")).getText();
-        Assert.assertEquals(text, "The I-PRO Proficiency scheme consists of both samples and online assessment.", "Test #3 --> Title is not matched");
+        String text = driver.findElement(By.xpath("//li[contains(text(),'The iPRO Proficiency scheme consists of both samples and online assessment.')]")).getText();
+        Assert.assertEquals(text, "The iPRO Proficiency scheme consists of both samples and online assessment.", "Test #4 --> Text is not matched");
         System.out.println("Test #4 --> Print Home Page text: " + text);
     }
 

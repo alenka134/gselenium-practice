@@ -5,9 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class ConcentrationPage extends BasePage {
-    @FindBy(xpath = "//h2[text()='Concentration assessment']")
+    @FindBy(xpath = "//h2[text()='Concentration Assessment']")
     WebElement concentrationPageTestHeading;
-    @FindBy(xpath = "//text()[.='Download the Concentration Test Instructions']/ancestor::a[1]")
+    @FindBy(xpath = "//text()[.='Download the Concentration test Instructions']/ancestor::a[1]")
     WebElement linkPDFConcentrationTestInstruction;
 
     @FindBy(css = "input[type=text][placeholder='Sample 1 [M/ml]']")
@@ -33,18 +33,18 @@ public class ConcentrationPage extends BasePage {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        introWho4AutoVisionPap.setNoReplicateWho4();
-        introWho4AutoVisionPap.setNoReplicateWhoAutomatic();
+      //  introWho4AutoVisionPap.setNoReplicateWho4();
+      //  introWho4AutoVisionPap.setNoReplicateWhoAutomatic();
         introWho4AutoVisionPap.setDeviceTypeSqaVision();
-        introWho4AutoVisionPap.setStainingMethodPapanicolaou();
+       // introWho4AutoVisionPap.setStainingMethodPapanicolaou();
 
         MotilityCountingWho4 motilityCountingWho4 = new MotilityCountingWho4(driver);
         motilityCountingWho4.setTallyCounter();
         motilityCountingWho4.clickSaveAndContinue();
 
         MorphologyCountingWho4 morphologyCountingWho4 = new MorphologyCountingWho4(driver);
-        morphologyCountingWho4.setTallyCounter();
-        morphologyCountingWho4.setVideoNextFieldCount();
+       morphologyCountingWho4.setTallyCounter();
+       // morphologyCountingWho4.setVideoNextPapFieldCount();
         morphologyCountingWho4.clickSaveAndContinue();
 
         click(concentrationPageTestHeading);
@@ -52,13 +52,15 @@ public class ConcentrationPage extends BasePage {
         System.out.println("Title Screen is " + concentrationPageTestHeading.getText());
     }
 
-    public void getLinkPDFConcentrationTestInstruction() {
+    public void getLinkPDFConcentrationTestInstruction() throws InterruptedException {
+        Thread.sleep(500);
         click(linkPDFConcentrationTestInstruction);
         highlightElementTime(linkPDFConcentrationTestInstruction, "blue");
         switchBetweenWindow();
         System.out.println("If the 'PDF Concentration Test Instruction'-link is displayed after the valid login: " + linkPDFConcentrationTestInstruction.isDisplayed() + " and user back to the previous tab: " + driver.getCurrentUrl());
     }
-    public void setConcentrationAssessment() {
+    public void setConcentrationAssessment() throws InterruptedException {
+        Thread.sleep(500);
         click(inputSampleOne);
         highlightElementTime(inputSampleOne, "blue");
         fillText(inputSampleOne, "1.5");

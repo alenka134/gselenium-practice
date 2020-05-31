@@ -1,5 +1,6 @@
 package com.gselenium.practice.solutions.eplay.mycomp.tests;
 
+import com.gselenium.practice.ipro.tests.MyCommonData;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -27,7 +28,7 @@ public class BaseTest {
     //before class we open the driver
     @BeforeClass
     public void setup() {
-        System.setProperty("webdriver.chrome.driver", "/Users/alenka/automation/drivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver", MyCommonData.chromeDriver);
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

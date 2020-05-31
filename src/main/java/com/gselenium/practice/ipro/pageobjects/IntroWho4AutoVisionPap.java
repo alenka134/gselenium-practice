@@ -1,5 +1,6 @@
 package com.gselenium.practice.ipro.pageobjects;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -9,10 +10,20 @@ public class IntroWho4AutoVisionPap extends BasePage {
     WebElement noteFinalTestDate;
     @FindBy(css = "input[type=text][name='Batchnumber']")
     WebElement enterBatchNumber;
-    // @FindBy(css = "a[href='assets/I-PRO_Insert_ internal_alpha.pdf']")
-    // WebElement herePDFInstructionLink;
-    @FindBy(css = "#dropdownBasic1")
+
+    @FindBy(css = "a[href='assets/iPRO_Insert_ internal_alpha.pdf']")
+    WebElement herePDFInstructionLink;
+
+    @FindBy(xpath = "//button[text()='WHO Version']")
+    WebElement WhoVersionBtn;
+    @FindBy(xpath = "/html/body/app-root/div[2]/app-proficiency/aw-wizard/div/app-intro/div/div[3]/div/div/div[1]/button")
     WebElement WHO;
+    @FindBy(css = "div[class='swal-title']")
+    WebElement swalChangingSettings;
+    @FindBy(css = "button[class='swal-button swal-button--cancel']")
+    WebElement swalCancelBtn;
+    @FindBy(css = "button[class='swal-button swal-button--confirm swal-button--danger']")
+    WebElement swalConfirmBtn;
     @FindBy(xpath = "//button[text()='WHO 5']")
     WebElement WHO5;
     @FindBy(xpath = "//button[text()='WHO 4']")
@@ -38,16 +49,17 @@ public class IntroWho4AutoVisionPap extends BasePage {
     @FindBy(xpath = "//button[text()='Other']")
     WebElement deviceOther;
 
-    @FindBy(xpath = "/html/body/app-root/div[2]/app-proficiency/aw-wizard/div/app-intro/div[3]/div/div/div[3]/button")
+    // @FindBy(xpath = "/html/body/app-root/div[2]/app-proficiency/aw-wizard/div/app-intro/div[3]/div/div/div[3]/button")
+    @FindBy(xpath = "/html/body/app-root/div[2]/app-proficiency/aw-wizard/div/app-intro/div/div[3]/div/div/div[3]/button")
     WebElement stainingMethod;
-    @FindBy(xpath = "//button[text()='Papanicolaou']")
+    @FindBy(xpath = "/html/body/app-root/div[2]/app-proficiency/aw-wizard/div/app-intro/div/div[3]/div/div/div[3]/div/button[1]")
     WebElement stainingMethodPapanicolaou;
 
     @FindBy(xpath = "//button[text()='Diff-Quik']")
     WebElement stainingMethodDiffQuik;
     @FindBy(xpath = "//button[text()='Prestaind Slide']")
     WebElement stainingMethodPrestaindSlide;
-    @FindBy(xpath = "//button[text()='Start Test']")
+    @FindBy(xpath = "//button[text()='START TESTING']")
     WebElement btnStartTest;
 
     public IntroWho4AutoVisionPap(WebDriver driver) {
@@ -63,6 +75,16 @@ public class IntroWho4AutoVisionPap extends BasePage {
         return true;
     }
 
+    //Check pdf links (1)
+    public boolean getHerePDFInstructionLink() {
+        herePDFInstructionLink.isDisplayed();
+        click(herePDFInstructionLink);
+        highlightElementTime(herePDFInstructionLink, "blue");
+        switchBetweenWindow();
+        System.out.println("If the 'PDF here'-link is displayed after the click 'here': " + herePDFInstructionLink.isDisplayed() + ", link name is: " + getText(herePDFInstructionLink) + " and user back to the previous tab: " + driver.getCurrentUrl());
+        return true;
+    }
+
     public void getBatchNumber(String batchNumber) throws InterruptedException {
         fillText(enterBatchNumber, batchNumber);
         click(enterBatchNumber);
@@ -70,17 +92,28 @@ public class IntroWho4AutoVisionPap extends BasePage {
         Thread.sleep(2000);
     }
 
-    //this method for WHO4, but we can change criteria to WHO5 or WHO4
+    //this method for WHO4, but we can change criteria to WHO5 or WHO3
     public void setNoReplicateWho4() {
         fillText(enterBatchNumber, "B31102019");
         click(enterBatchNumber);
         click(WHO);
-        click(WHO4);
-        highlightElementTime(WHO4, "blue");
+        click(WHO5);
+        highlightElementTime(WHO5, "blue");
+        try {
+            click(swalCancelBtn);
+            // {acceptAlert(swalCancelBtn);
+            System.out.println("User click 'cancel' button and previous settings WHO are stored");
+            // }
+        } catch (Exception e) {
+            System.out.println("The alert message was not displayed");
+        }
+
         System.out.println("WHO CRITERIA is: " + WHO.getText());
     }
 
+
     public void setNoReplicateWhoAutomatic() {
+        //  click(btnStartTest);
         click(concAssumpMethod);
         click(concAssumpMethodAutomatic);
         highlightElementTime(concAssumpMethodAutomatic, "blue");
@@ -88,6 +121,7 @@ public class IntroWho4AutoVisionPap extends BasePage {
     }
 
     public void setDeviceTypeSqaVision() {
+        click(btnStartTest);
         click(deviceType);
         click(deviceSqaVision);
         highlightElementTime(deviceSqaVision, "blue");
@@ -98,9 +132,10 @@ public class IntroWho4AutoVisionPap extends BasePage {
     public void setStainingMethodPapanicolaou() {
         click(stainingMethod);
         click(stainingMethodPapanicolaou);
+
         highlightElementTime(stainingMethodPapanicolaou, "blue");
         System.out.println("Staining method is: " + stainingMethod.getText());
-        click(btnStartTest);
-        highlightElementTime(btnStartTest, "green");
+        // click(btnStartTest);
+        // highlightElementTime(btnStartTest, "green");
     }
 }

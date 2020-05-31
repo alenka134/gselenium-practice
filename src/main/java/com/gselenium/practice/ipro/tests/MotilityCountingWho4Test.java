@@ -15,10 +15,12 @@ public class MotilityCountingWho4Test extends BaseTest {
 
         IntroWho4AutoVisionPap introWho4AutoVisionPap = new IntroWho4AutoVisionPap(driver);
         introWho4AutoVisionPap.getBatchNumber("B31102019");
-        introWho4AutoVisionPap.setNoReplicateWho4();
-        introWho4AutoVisionPap.setNoReplicateWhoAutomatic();
+
+      //  introWho4AutoVisionPap.setNoReplicateWho4();
+        //introWho4AutoVisionPap.clickCancelAlertAndStartTest();
+       // introWho4AutoVisionPap.setNoReplicateWhoAutomatic();
         introWho4AutoVisionPap.setDeviceTypeSqaVision();
-        introWho4AutoVisionPap.setStainingMethodPapanicolaou();
+      //  introWho4AutoVisionPap.setStainingMethodPapanicolaou();
 
         MotilityCountingWho4 motilityCountingWho4 = new MotilityCountingWho4(driver);
         motilityCountingWho4.setMotilityButtons();
@@ -30,7 +32,7 @@ public class MotilityCountingWho4Test extends BaseTest {
     public void setMotilityTestHeadingTest() {
         MotilityCountingWho4 motilityCountingWho4 = new MotilityCountingWho4(driver);
         motilityCountingWho4.setMotilityTestHeading();
-        System.out.println("Test 2: check Morphology page title");
+        System.out.println("Test 2: check Motility page title");
     }
 
     @Test(priority = 3, description = "verify Link PDFMotility Instruction", enabled = true)
@@ -68,7 +70,7 @@ public class MotilityCountingWho4Test extends BaseTest {
         try {
             MotilityCountingWho4 motilityCountingWho4 = new MotilityCountingWho4(driver);
             motilityCountingWho4.setLabelCounter();
-            motilityCountingWho4.clickSaveAndContinue();
+           // motilityCountingWho4.clickSaveAndContinue();
             System.out.println("Test 7: select Label Counter and values input, jumping to Morphology Counter");
             Assert.assertTrue(motilityCountingWho4.setSaveAndContinue(), "'Save and Continue' button is not displayed on the page");
             System.out.println("'Save and Continue' button is displayed:  --> " + motilityCountingWho4.setSaveAndContinue());
