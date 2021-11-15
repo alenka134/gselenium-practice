@@ -11,7 +11,7 @@ public class TasksTest {
     static WebDriver driver;
 
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty("webdriver.chrom.driver", "/Users/alenka/automation/drivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/Users/alenka/automation/drivers/chromedriver");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("http://www.mytinytodo.net/demo/");

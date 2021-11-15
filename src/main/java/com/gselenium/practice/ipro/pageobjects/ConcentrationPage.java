@@ -16,6 +16,8 @@ public class ConcentrationPage extends BasePage {
     WebElement inputSampleTwo;
     @FindBy(css = "button[class='btn btn-primary navbtn']")
     WebElement btnBack;
+    @FindBy(css = "button[class='swal-button swal-button--cancel']")
+    WebElement swalCancelBtn;
     @FindBy(xpath = "//button[text()='Save and Continue']")
     WebElement btnSaveAndContinue;
 
@@ -24,29 +26,6 @@ public class ConcentrationPage extends BasePage {
     }
 
     public void setConcentrationPageTestHeading() {
-        LoginPagePass loginPagePass = new LoginPagePass(driver);
-        loginPagePass.login("elena@mes-ltd.com", "123456");
-
-        IntroWho4AutoVisionPap introWho4AutoVisionPap = new IntroWho4AutoVisionPap(driver);
-        try {
-            introWho4AutoVisionPap.getBatchNumber("B31102019");
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-      //  introWho4AutoVisionPap.setNoReplicateWho4();
-      //  introWho4AutoVisionPap.setNoReplicateWhoAutomatic();
-        introWho4AutoVisionPap.setDeviceTypeSqaVision();
-       // introWho4AutoVisionPap.setStainingMethodPapanicolaou();
-
-        MotilityCountingWho4 motilityCountingWho4 = new MotilityCountingWho4(driver);
-        motilityCountingWho4.setTallyCounter();
-        motilityCountingWho4.clickSaveAndContinue();
-
-        MorphologyCountingWho4 morphologyCountingWho4 = new MorphologyCountingWho4(driver);
-       morphologyCountingWho4.setTallyCounter();
-       // morphologyCountingWho4.setVideoNextPapFieldCount();
-        morphologyCountingWho4.clickSaveAndContinue();
-
         click(concentrationPageTestHeading);
         highlightElementTime(concentrationPageTestHeading, "blue");
         System.out.println("Title Screen is " + concentrationPageTestHeading.getText());
@@ -59,6 +38,7 @@ public class ConcentrationPage extends BasePage {
         switchBetweenWindow();
         System.out.println("If the 'PDF Concentration Test Instruction'-link is displayed after the valid login: " + linkPDFConcentrationTestInstruction.isDisplayed() + " and user back to the previous tab: " + driver.getCurrentUrl());
     }
+
     public void setConcentrationAssessment() throws InterruptedException {
         Thread.sleep(500);
         click(inputSampleOne);
@@ -72,7 +52,15 @@ public class ConcentrationPage extends BasePage {
         highlightElementTime(btnBack, "green");
         MorphologyCountingWho4 morphologyCountingWho4 = new MorphologyCountingWho4(driver);
         morphologyCountingWho4.setTallyCounter();
-        morphologyCountingWho4.clickSaveAndContinue();
+        try {
+            click(swalCancelBtn);
+            // {acceptAlert(swalCancelBtn);
+            System.out.println("User click 'cancel' button and previous settings WHO are stored");
+            // }
+        } catch (Exception e) {
+            System.out.println("The alert message was not displayed");
+        }
+        morphologyCountingWho4.setSaveAndContinue();
 
         click(inputSampleOne);
         highlightElementTime(inputSampleOne, "blue");

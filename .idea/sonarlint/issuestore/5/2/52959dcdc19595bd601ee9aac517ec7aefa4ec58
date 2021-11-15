@@ -1,0 +1,14 @@
+
+Z	java:S106'"9Replace this use of System.out or System.err by a logger.(šÁë¶øÿÿÿÿ8§â‰Ž£.
+v
+java:S1128"TRemove this unused import 'com.gselenium.practice.ipro.pageobjects.LoginPageFailed'.(‰»è‡ÿÿÿÿÿ8Ì“ŽŽ£.
+U	java:S106K"9Replace this use of System.out or System.err by a logger.(ÊóîÖ8Ç”×Ž‹.
+U	java:S106@"9Replace this use of System.out or System.err by a logger.(ôÒžù8Ç”×Ž‹.
+Z	java:S1063"9Replace this use of System.out or System.err by a logger.(ÏÈƒŠþÿÿÿÿ8Ç”×Ž‹.
+·
+java:S1192"”Define a constant instead of duplicating this literal " and the picture you can found: /Users/alenka/Desktop/Screenshots/testCaseName .jpg" 6 times.(°å¼îúÿÿÿÿ8Ç”×Ž‹.
+Z	java:S106V"9Replace this use of System.out or System.err by a logger.(ã¨Ö­ùÿÿÿÿ8Ç”×Ž‹.
+{
+java:S1192"YDefine a constant instead of duplicating this literal "*****Failed on error %s " 6 times.(°å¼îúÿÿÿÿ8Ç”×Ž‹.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¸£Àåýÿÿÿÿ8Ç”×Ž‹.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(…¨Ûç8Ç”×Ž‹.

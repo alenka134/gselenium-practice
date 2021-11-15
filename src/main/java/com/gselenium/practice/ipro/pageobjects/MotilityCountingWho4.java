@@ -25,6 +25,8 @@ public class MotilityCountingWho4 extends BasePage {
     @FindBy(css = "p[class='blackColor']")
     WebElement clickMotileCounterResult;
 
+    @FindBy(css = "button[class='swal-button swal-button--cancel']")
+    WebElement swalCancelBtn;
     @FindBy(xpath = "//button[text()='Save and Continue']")
     WebElement btnSaveAndContinue;
     @FindBy(xpath = "//button[text()='Reset Count']")
@@ -129,7 +131,15 @@ public class MotilityCountingWho4 extends BasePage {
     // Switching to Alert > Capturing alert message > Displaying alert message > Accepting alert.
     public void clickSaveAndContinue() {
         click(btnSaveAndContinue);
-        //click(approveAlertBtn);
+        try {
+            click(swalCancelBtn);
+             {acceptAlert(swalCancelBtn);
+            System.out.println("User click 'cancel' button and previous settings are stored");
+             }
+        } catch (Exception e) {
+            System.out.println("The alert message was not displayed");
+        }
+        click(approveAlertBtn);
 
     }
 

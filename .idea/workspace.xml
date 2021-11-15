@@ -1,35 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eabf816-7e03-41af-ba74-25c218396dc9" name="Default" comment="added HTML Test Run Package by class parallel">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/MyCommonData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/634d2f9c3f0a8926de5cc43e7a1b17fc33ebe705" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b9be8731bba6b4d07437e6eccb9556fd571895c7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fbb9292592df717ddb4dacd04cdfd8ca1b613e0e" beforeDir="false" />
+    <list default="true" id="1eabf816-7e03-41af-ba74-25c218396dc9" name="Default" comment="Updated chrome driver (with chrome driver path)">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/00763da5ad4751e96b04183f94337249a3628696" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/0195ec571c3cc389ec5649d11e581f6fdd19cfc2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/05c5fc5d2b3c8e6237d57b2c2d9f59bede58d91d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/7/07c6208d970e6f8dce49655a3a2d4f6503634153" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/c/0c486a2685599a4b6a279dcd0e6a50de56788d3a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/14b3804f0dbc141e247b0d3c0424fd2f24a6da0d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1b4ca0e81a115eb6e56945755899f65e4938511e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/233444f4fa820a918a33f3973614cee2ed2cc95a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/290b9f3011f2455c180b93ac06a85ed096b52a59" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2b23a1a0ad52bf1fa7a1880e42dee339dcdf620f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2b703941f508dc27ea6ece69c7352e9b7acb5047" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/f/2fad89d42fd353235687fcae9ca47a1e4b73aeeb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/363e025ba85d12ede6dc260bdfa1a9ed4f8c48e0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/37aa44c16a503bf44e520d3e98d29f4b742c1f7b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/39963edb1ec1610c2f700ae8139eb2ae052a318d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3b4085b36d13ff1c94ea98df4b9ee1fa892b5b8f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3bf88471d7b3af72656001594d6a9fa0aedf8187" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3da01db98b88a8057c03354880f06dba49d3e795" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/0/40f8b47e368bb855a6e13d2f5d3ff95ccf886abb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/468677be6c9628b80e79f4058d217d114f71330f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/f/4f4ab2130d0dd10381191537d42455d69021e49d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/52959dcdc19595bd601ee9aac517ec7aefa4ec58" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/52df03aa14e85adf973ca5c1c7d0e9b6a1aa030a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/7/57b22dc523549802246ed3145410db03751c0efc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5acbe6c306dee4498a010b1ca2096853e29e16a4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/636ea25c3bbd05309ee52f01f44151229d714836" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/6861e478bfcdfe5409074f1191114fa7fc4f1479" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6b30cadbd6e1a996233a1e056d99fa83c833c315" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/c/6c6b8847d8751c4ee52f082e633520df4001100f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/c/6cae412730afacc3c02d93d18c5260e41b24a394" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/77d3527354f82ccca368ddb442e10f172d73a698" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7fd7fd621f3fe87aed1a1e06c2bf68eb7c643f37" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/87a94821806364a40b3786c3b9b0ac0960466db4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/a/8ae396f369da14bb5c0973286facff8fb2c70d56" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/c/8c706f48584685ff0b3c6ea11d330d113b622f1f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/d/8d34fce542c9c575205d1cbcd305a065b523ab2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e45b1922dd6a63ff51a21ddf1ddbbb15d1c55c6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e8ee7ffb3bb3562923238945ba8f5f0d13b2199" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e9e8f60edaea1bf046d8d73467a55245e322b98" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/6/a639dd3c603e17de6567e335e1788e721b96be37" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/f/af375d02770684c9ab90500a90dac87db53768c2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b9f2c3b090902a27114e13051de629e8f6f456d8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/bef5c93a1db9f236ead1080f018e4104dbaa2a1a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c51bdcdc31237d687fc7a73b61b644140e5ce74c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cfcab76f50b1baf78cc05fcdb98ee72305e4374f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e3033f1868400edef89e395d6b4fee415ad94522" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/eed92e26b28e7ddc8f4aaeb80353f77e03a29a8e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/5/f5057989f0ef97f886028c544b4166caa363e727" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f97af7f085809d20c532b64324ebe48a47b850f6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/algorithms/Targil1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/54e3cbbbdbe4d424355b0d46b053d4edd04e3517" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cd160d47e411777c81a355cb5615ca26d5ac739d" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gselenium-practice.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/aerocube/GridTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/aerocube/GridTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/PackageByClass_ipro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/PackageByClass_ipro.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/Test Results - _Users_alenka_Programming_Java_gselenium-practice_src_main_java_com_gselenium_practice_ipro_Package-Test_Result_ipro_xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/Test Results - _Users_alenka_Programming_Java_gselenium-practice_src_main_java_com_gselenium_practice_ipro_Package-Test_Result_ipro_xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/Test Results - _Users_alenka_Programming_Java_gselenium-practice_src_main_java_com_gselenium_practice_ipro_PackageByClass_ipro_xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/Test Results - _Users_alenka_Programming_Java_gselenium-practice_src_main_java_com_gselenium_practice_ipro_PackageByClass_ipro_xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/Test Results - _Users_alenka_Programming_Java_gselenium-practice_src_main_java_com_gselenium_practice_solutions_eplay_mycomp_Package-Test_Result_eplay_xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/docker/tests/Test Results - _Users_alenka_Programming_Java_gselenium-practice_src_main_java_com_gselenium_practice_ipro_Package-Test_Result_ipro_xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/pageobjects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/pageobjects/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/pageobjects/ConcentrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/pageobjects/ConcentrationPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/pageobjects/IntroWho4AutoVisionPap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/pageobjects/IntroWho4AutoVisionPap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/pageobjects/LoginPagePass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/pageobjects/LoginPagePass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/pageobjects/MorphologyCountingWho4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/pageobjects/MorphologyCountingWho4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/pageobjects/MotilityCountingWho4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/pageobjects/MotilityCountingWho4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/ConcentrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/ConcentrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/HomePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/IntroWho4AutoVisionPapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/IntroWho4AutoVisionPapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/LoginPassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/LoginPassTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/MorphologyCountingWho4Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/MorphologyCountingWho4Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/MotilityCountingWho4Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/MotilityCountingWho4Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/docker/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/docker/tests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/docker/tests/Test Results - _Users_alenka_Programming_Java_gselenium-practice_src_main_java_com_gselenium_practice_ipro_PackageByClass_ipro_xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/docker/tests/Test Results - _Users_alenka_Programming_Java_gselenium-practice_src_main_java_com_gselenium_practice_ipro_PackageByClass_ipro_xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/mycomp/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/mycomp/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/MyCommonData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/MyCommonData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/practice4/tests/TasksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/practice4/tests/TasksTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +82,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro" openResultsInEditor="true" userTempatePath="" />
-  <component name="FavoritesManager">
-    <favorites_list name="gselenium-practice" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -49,14 +91,15 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="alenka &lt;alenka134@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="ProblemsViewState">
+    <option name="showPreview" value="true" />
   </component>
   <component name="ProjectId" id="1Xed7QRx64BRyC08ZSU11gbFQtr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -64,15 +107,15 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="SearchEverywhereHistoryKey" value="testng&#9;PSI&#9;JAVA://org.testng.reporters.SuiteHTMLReporter#TESTNG_XML&#10;setti&#9;ACTION&#9;DBNavigator.Actions.CodeEditor.OpenSettings&#10;sett&#9;ACTION&#9;DBNavigator.Actions.CodeEditor.OpenSettings" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/docker" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -100,7 +143,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/gselenium/practice" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.E2EThankYouPageTest">
+  <component name="RunManager" selected="TestNG./Users/alenka/Programming/Java/gselenium-practice/src/main/java/com/gselenium/practice/ipro/Package-Test_Result_ipro.xml">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -114,7 +157,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConcentrationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactUsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="gselenium-practice" />
       <extension name="coverage">
         <pattern>
@@ -123,7 +166,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.gselenium.practice.ipro.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.gselenium.practice.ipro.tests.ConcentrationTest" />
+      <option name="MAIN_CLASS_NAME" value="com.gselenium.practice.ipro.tests.ContactUsTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -132,7 +175,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E2EThankYouPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="gselenium-practice" />
       <extension name="coverage">
         <pattern>
@@ -141,7 +184,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.gselenium.practice.ipro.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.gselenium.practice.ipro.tests.E2EThankYouPageTest" />
+      <option name="MAIN_CLASS_NAME" value="com.gselenium.practice.ipro.tests.HomePageTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -200,22 +243,23 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG./Users/alenka/Programming/Java/gselenium-practice/src/main/java/com/gselenium/practice/ipro/Package-Test_Result_ipro.xml" />
-      <item itemvalue="TestNG./Users/alenka/Programming/Java/gselenium-practice/src/main/java/com/gselenium/practice/ipro/PackageByClass_ipro.xml" />
-      <item itemvalue="TestNG.ConcentrationTest" />
+      <item itemvalue="TestNG.HomePageTest" />
       <item itemvalue="TestNG.LoginPassTest" />
-      <item itemvalue="TestNG.E2EThankYouPageTest" />
+      <item itemvalue="TestNG.ContactUsTest" />
+      <item itemvalue="TestNG./Users/alenka/Programming/Java/gselenium-practice/src/main/java/com/gselenium/practice/ipro/PackageByClass_ipro.xml" />
+      <item itemvalue="TestNG./Users/alenka/Programming/Java/gselenium-practice/src/main/java/com/gselenium/practice/ipro/Package-Test_Result_ipro.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.E2EThankYouPageTest" />
-        <item itemvalue="TestNG./Users/alenka/Programming/Java/gselenium-practice/src/main/java/com/gselenium/practice/ipro/PackageByClass_ipro.xml" />
-        <item itemvalue="TestNG.LoginPassTest" />
         <item itemvalue="TestNG./Users/alenka/Programming/Java/gselenium-practice/src/main/java/com/gselenium/practice/ipro/Package-Test_Result_ipro.xml" />
-        <item itemvalue="TestNG.ConcentrationTest" />
+        <item itemvalue="TestNG./Users/alenka/Programming/Java/gselenium-practice/src/main/java/com/gselenium/practice/ipro/PackageByClass_ipro.xml" />
+        <item itemvalue="TestNG.HomePageTest" />
+        <item itemvalue="TestNG.LoginPassTest" />
+        <item itemvalue="TestNG.ContactUsTest" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -325,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586726311708</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add to tests folder Common Data Class (with chrome driver path)">
+      <created>1590951475225</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1590951475225</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -341,181 +392,9 @@
     <MESSAGE value="added Test Package by class parallel" />
     <MESSAGE value="added Test Run Package by class parallel" />
     <MESSAGE value="added HTML Test Run Package by class parallel" />
-    <option name="LAST_COMMIT_MESSAGE" value="added HTML Test Run Package by class parallel" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="286" y="107" key="#Gridtest.setGridtest" timestamp="1585255798739">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="286" y="107" key="#Gridtest.setGridtest/0.0.1440.900@0.0.1440.900" timestamp="1585255798739" />
-    <state x="320" y="115" key="#Inspections" timestamp="1585325023914">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="320" y="115" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1585325023914" />
-    <state x="0" y="71" key="#Project_Structure" timestamp="1586727722616">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="0" y="71" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1586727722616" />
-    <state x="0" y="87" key="#Project_Structure/0.23.1440.814@0.23.1440.814" timestamp="1586726674193" />
-    <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1582919635098">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.900@0.0.1440.900" timestamp="1582919635098" />
-    <state x="426" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586718698248">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="426" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1586718698248" />
-    <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1589265602345">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1589265602345" />
-    <state x="329" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583864825659">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="329" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1583864825659" />
-    <state x="483" y="166" width="854" height="568" key="#xdebugger.evaluate" timestamp="1585592665695">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="483" y="166" width="854" height="568" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1585592665695" />
-    <state x="309" y="105" width="1131" height="795" key="CommitChangelistDialog2" timestamp="1586726311390">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="309" y="105" width="1131" height="795" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586726311390" />
-    <state width="1398" height="386" key="GridCell.Tab.0.bottom" timestamp="1590950048672">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state width="1398" height="386" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590947984551" />
-    <state width="1004" height="359" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1583953335874" />
-    <state width="735" height="254" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1586806123315" />
-    <state width="685" height="317" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1589314198649" />
-    <state width="930" height="317" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1589290734625" />
-    <state width="1398" height="295" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1590912301822" />
-    <state width="1398" height="295" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1590912314408" />
-    <state width="685" height="317" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1589885489194" />
-    <state width="824" height="239" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1583571770241" />
-    <state width="1398" height="292" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1585425684313" />
-    <state width="828" height="202" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1586721007977" />
-    <state width="1398" height="386" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1590950048672" />
-    <state width="1398" height="386" key="GridCell.Tab.0.center" timestamp="1590950048672">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state width="1398" height="386" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1590947984550" />
-    <state width="1004" height="359" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1583953335873" />
-    <state width="735" height="254" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1586806123314" />
-    <state width="685" height="317" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1589314198648" />
-    <state width="930" height="317" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1589290734624" />
-    <state width="1398" height="295" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1590912301821" />
-    <state width="1398" height="295" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1590912314406" />
-    <state width="685" height="317" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1589885489194" />
-    <state width="824" height="239" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1583571770240" />
-    <state width="1398" height="292" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1585425684313" />
-    <state width="828" height="202" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1586721007977" />
-    <state width="1398" height="386" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1590950048672" />
-    <state width="1398" height="386" key="GridCell.Tab.0.left" timestamp="1590950048671">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state width="1398" height="386" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1590947984549" />
-    <state width="1004" height="359" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1583953335873" />
-    <state width="735" height="254" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1586806123314" />
-    <state width="685" height="317" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1589314198648" />
-    <state width="930" height="317" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1589290734623" />
-    <state width="1398" height="295" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1590912301820" />
-    <state width="1398" height="295" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1590912314405" />
-    <state width="685" height="317" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1589885489193" />
-    <state width="824" height="239" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1583571770240" />
-    <state width="1398" height="292" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1585425684312" />
-    <state width="828" height="202" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1586721007976" />
-    <state width="1398" height="386" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1590950048671" />
-    <state width="1398" height="386" key="GridCell.Tab.0.right" timestamp="1590950048672">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state width="1398" height="386" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1590947984550" />
-    <state width="1004" height="359" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1583953335874" />
-    <state width="735" height="254" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1586806123314" />
-    <state width="685" height="317" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1589314198648" />
-    <state width="930" height="317" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1589290734625" />
-    <state width="1398" height="295" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1590912301821" />
-    <state width="1398" height="295" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1590912314407" />
-    <state width="685" height="317" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1589885489194" />
-    <state width="824" height="239" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1583571770241" />
-    <state width="1398" height="292" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1585425684313" />
-    <state width="828" height="202" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1586721007977" />
-    <state width="1398" height="386" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1590950048672" />
-    <state width="1398" height="295" key="GridCell.Tab.1.bottom" timestamp="1590941293911">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="295" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590941293911" />
-    <state width="1398" height="292" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1582275024345" />
-    <state width="1398" height="291" key="GridCell.Tab.1.bottom/0.23.1440.798@0.23.1440.798" timestamp="1586806123266" />
-    <state width="1398" height="295" key="GridCell.Tab.1.bottom/0.23.1440.806@0.23.1440.806" timestamp="1590912302557" />
-    <state width="1398" height="292" key="GridCell.Tab.1.bottom/0.23.1440.814@0.23.1440.814" timestamp="1585425684314" />
-    <state width="1398" height="295" key="GridCell.Tab.1.center" timestamp="1590941293910">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="295" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1590941293910" />
-    <state width="1398" height="292" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1582275024345" />
-    <state width="1398" height="291" key="GridCell.Tab.1.center/0.23.1440.798@0.23.1440.798" timestamp="1586806123265" />
-    <state width="1398" height="295" key="GridCell.Tab.1.center/0.23.1440.806@0.23.1440.806" timestamp="1590912302557" />
-    <state width="1398" height="292" key="GridCell.Tab.1.center/0.23.1440.814@0.23.1440.814" timestamp="1585425684314" />
-    <state width="1398" height="295" key="GridCell.Tab.1.left" timestamp="1590941293910">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="295" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1590941293910" />
-    <state width="1398" height="292" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1582275024344" />
-    <state width="1398" height="291" key="GridCell.Tab.1.left/0.23.1440.798@0.23.1440.798" timestamp="1586806123265" />
-    <state width="1398" height="295" key="GridCell.Tab.1.left/0.23.1440.806@0.23.1440.806" timestamp="1590912302556" />
-    <state width="1398" height="292" key="GridCell.Tab.1.left/0.23.1440.814@0.23.1440.814" timestamp="1585425684313" />
-    <state width="1398" height="295" key="GridCell.Tab.1.right" timestamp="1590941293911">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="295" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1590941293911" />
-    <state width="1398" height="292" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1582275024345" />
-    <state width="1398" height="291" key="GridCell.Tab.1.right/0.23.1440.798@0.23.1440.798" timestamp="1586806123266" />
-    <state width="1398" height="295" key="GridCell.Tab.1.right/0.23.1440.806@0.23.1440.806" timestamp="1590912302557" />
-    <state width="1398" height="292" key="GridCell.Tab.1.right/0.23.1440.814@0.23.1440.814" timestamp="1585425684314" />
-    <state x="258" y="112" key="Maven.ArtifactSearchDialog" timestamp="1585513206429">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="258" y="112" key="Maven.ArtifactSearchDialog/0.0.1440.900@0.0.1440.900" timestamp="1585513206429" />
-    <state x="258" y="123" key="Maven.ArtifactSearchDialog/0.23.1440.804@0.23.1440.804" timestamp="1585324527885" />
-    <state x="0" y="27" key="SettingsEditor" timestamp="1586550485249">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="0" y="27" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586550485249" />
-    <state x="320" y="198" key="Vcs.Push.Dialog.v2" timestamp="1590951355234">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586726320365" />
-    <state x="320" y="198" key="Vcs.Push.Dialog.v2/0.23.1440.829@0.23.1440.829" timestamp="1590951355234" />
-    <state width="720" height="403" key="XDebugger.FullValuePopup" timestamp="1590911867224">
-      <screen x="0" y="23" width="1440" height="806" />
-    </state>
-    <state width="720" height="450" key="XDebugger.FullValuePopup/0.0.1440.900@0.0.1440.900" timestamp="1585592778778" />
-    <state width="720" height="403" key="XDebugger.FullValuePopup/0.23.1440.806@0.23.1440.806" timestamp="1590911867224" />
-    <state x="397" y="261" key="com.intellij.ide.util.TipDialog" timestamp="1590911126995">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="397" y="261" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1590911126995" />
-    <state x="397" y="254" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1584963552121" />
-    <state x="397" y="258" key="com.intellij.ide.util.TipDialog/0.23.1440.811@0.23.1440.811" timestamp="1586806232209" />
-    <state x="397" y="258" key="com.intellij.ide.util.TipDialog/0.23.1440.812@0.23.1440.812" timestamp="1587494401851" />
-    <state x="525" y="285" key="export.test.results" timestamp="1590949989658">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state x="525" y="284" key="export.test.results/0.0.1440.900@0.0.1440.900" timestamp="1590045246350" />
-    <state x="525" y="274" key="export.test.results/0.23.1440.797@0.23.1440.797" timestamp="1583940847562" />
-    <state x="525" y="274" key="export.test.results/0.23.1440.798@0.23.1440.798" timestamp="1583938304242" />
-    <state x="525" y="285" key="export.test.results/0.23.1440.829@0.23.1440.829" timestamp="1590949989658" />
-    <state x="167" y="180" width="1273" height="494" key="find.popup" timestamp="1586548589798">
-      <screen x="0" y="23" width="1440" height="816" />
-    </state>
-    <state x="167" y="178" width="1273" height="486" key="find.popup/0.23.1440.804@0.23.1440.804" timestamp="1585424816626" />
-    <state x="167" y="180" width="1273" height="494" key="find.popup/0.23.1440.816@0.23.1440.816" timestamp="1586548589798" />
-    <state x="0" y="44" key="new project wizard" timestamp="1586545294730">
-      <screen x="0" y="23" width="1440" height="821" />
-    </state>
-    <state x="0" y="44" key="new project wizard/0.23.1440.814@0.23.1440.814" timestamp="1586202029763" />
-    <state x="0" y="44" key="new project wizard/0.23.1440.821@0.23.1440.821" timestamp="1586545294730" />
+    <MESSAGE value="add to tests folder Common Data Class (with chrome driver path)" />
+    <MESSAGE value="Updated chrome driver (with chrome driver path)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated chrome driver (with chrome driver path)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -534,16 +413,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/docker/tests/BaseTest.java</url>
           <line>31</line>
           <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/BaseTest.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/BaseTest.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

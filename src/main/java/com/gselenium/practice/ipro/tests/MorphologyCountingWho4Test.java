@@ -8,40 +8,44 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class MorphologyCountingWho4Test extends BaseTest {
-    @Test(priority = 1, description = "verify Link PDFMotility Instruction", enabled = true)
-    public void getLinkPDFMorphologyInstructionTest() throws InterruptedException {
-        LoginPagePass loginPagePass = new LoginPagePass(driver);
-        loginPagePass.login("elena@mes-ltd.com", "123456");
-
-        IntroWho4AutoVisionPap introWho4AutoVisionPap = new IntroWho4AutoVisionPap(driver);
+    @Test(priority = 1, description = "broken start Morphology test", enabled = true)
+    public void startMorphologyInstructionTest(){
         try {
-            introWho4AutoVisionPap.getBatchNumber("B31102019");
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+            LoginPagePass loginPagePass = new LoginPagePass(driver);
+            loginPagePass.login("elena@mes-ltd.com", "123456");
+
+            IntroWho4AutoVisionPap introWho4AutoVisionPap = new IntroWho4AutoVisionPap(driver);
+            try {
+                introWho4AutoVisionPap.getBatchNumber("B31102019");
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            //    introWho4AutoVisionPap.checkAlert();
+            //    introWho4AutoVisionPap.switchBetweenWindow();
+            //   introWho4AutoVisionPap.setNoReplicateWho4();
+
+            //   introWho4AutoVisionPap.setNoReplicateWhoAutomatic();
+            introWho4AutoVisionPap.setDeviceTypeSqaVision();
+            //   introWho4AutoVisionPap.setStainingMethodPapanicolaou();
+            System.out.println("Test : check Motility Label Counter data: ");
+            MotilityCountingWho4 motilityCountingWho4 = new MotilityCountingWho4(driver);
+            motilityCountingWho4.setLabelCounter();
+            motilityCountingWho4.clickSaveAndContinue();
+
+            MorphologyCountingWho4 morphologyCountingWho4 = new MorphologyCountingWho4(driver);
+            morphologyCountingWho4.setSaveAndContinue();
+        }catch (Exception e) {
+            Assert.fail(String.format("Test 1 *****Failed on error %s ", e));
         }
-        //    introWho4AutoVisionPap.checkAlert();
-        //    introWho4AutoVisionPap.switchBetweenWindow();
-        //   introWho4AutoVisionPap.setNoReplicateWho4();
 
-        //   introWho4AutoVisionPap.setNoReplicateWhoAutomatic();
-        introWho4AutoVisionPap.setDeviceTypeSqaVision();
-        //   introWho4AutoVisionPap.setStainingMethodPapanicolaou();
-
-        MotilityCountingWho4 motilityCountingWho4 = new MotilityCountingWho4(driver);
-        motilityCountingWho4.setLabelCounter();
-        motilityCountingWho4.clickSaveAndContinue();
-
-
-        MorphologyCountingWho4 morphologyCountingWho4 = new MorphologyCountingWho4(driver);
-        morphologyCountingWho4.getLinkPDFMorphologyInstruction();
-        System.out.println("Test 1: verify Link PDF Morphology Instruction");
     }
 
-    @Test(priority = 2, description = "check Page title", enabled = true)
+    @Test(priority = 2, description = "check Page title and pdf link", enabled = true)
     public void setMorphologyTestHeadingTest() throws InterruptedException {
         MorphologyCountingWho4 morphologyCountingWho4 = new MorphologyCountingWho4(driver);
         morphologyCountingWho4.setMorphologyTestHeading();
-        System.out.println("Test 2: check Morphology page title");
+        morphologyCountingWho4.getLinkPDFMorphologyInstruction();
+        System.out.println("Test 2: check Morphology page title and pdf link");
     }
 
     @Test(priority = 3, description = "check morphology buttons", enabled = true)
@@ -84,8 +88,9 @@ public class MorphologyCountingWho4Test extends BaseTest {
     public void setSaveAndContinueTest() {
         try {
             MorphologyCountingWho4 morphologyCountingWho4 = new MorphologyCountingWho4(driver);
-            morphologyCountingWho4.clickSaveAndContinue();
+            morphologyCountingWho4.setSaveAndContinue();
             System.out.println("Test 7: jump to Concentration Page");
+            Thread.sleep(500);
         } catch (Exception e) {
             Assert.fail(String.format("*****Failed on error %s " + " and the picture you can found: /Users/alenka/Desktop/Screenshots/testCaseName .jpg", e));
         }

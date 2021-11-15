@@ -79,7 +79,7 @@ public class MotilityCountingWho4Test extends BaseTest {
         }
     }
 
-    @Test(priority = 8, description = "jump to Morphology Counter", enabled = true)
+    @Test(priority = 8, description = "jump to Morphology Counter", enabled = false)
     public void setSaveAndContinueTest() {
         try {
             MotilityCountingWho4 motilityCountingWho4 = new MotilityCountingWho4(driver);

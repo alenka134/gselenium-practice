@@ -18,10 +18,12 @@ public class IntroWho4AutoVisionPap extends BasePage {
     WebElement WhoVersionBtn;
     @FindBy(xpath = "/html/body/app-root/div[2]/app-proficiency/aw-wizard/div/app-intro/div/div[3]/div/div/div[1]/button")
     WebElement WHO;
+
     @FindBy(css = "div[class='swal-title']")
     WebElement swalChangingSettings;
     @FindBy(css = "button[class='swal-button swal-button--cancel']")
     WebElement swalCancelBtn;
+
     @FindBy(css = "button[class='swal-button swal-button--confirm swal-button--danger']")
     WebElement swalConfirmBtn;
     @FindBy(xpath = "//button[text()='WHO 5']")
