@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1eabf816-7e03-41af-ba74-25c218396dc9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gselenium/practice/practice4/tests/TasksTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gselenium/practice/practice4/tests/TasksTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1b4ca0e81a115eb6e56945755899f65e4938511e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/233444f4fa820a918a33f3973614cee2ed2cc95a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/233444f4fa820a918a33f3973614cee2ed2cc95a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/39963edb1ec1610c2f700ae8139eb2ae052a318d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/0/40f8b47e368bb855a6e13d2f5d3ff95ccf886abb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/bef5c93a1db9f236ead1080f018e4104dbaa2a1a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/MyCommonData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/MyCommonData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +81,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/gselenium/practice" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/alenka/Programming/Java/gselenium-practice/src/main/java/com/gselenium/practice/ipro/Package-Test_Result_ipro.xml">
+  <component name="RunManager" selected="TestNG.ContactUsTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -106,6 +113,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="E2EThankYouPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="gselenium-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gselenium.practice.ipro.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gselenium.practice.ipro.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.gselenium.practice.ipro.tests.E2EThankYouPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="gselenium-practice" />
       <extension name="coverage">
@@ -124,17 +149,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPassTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WebDriverManagerTest.WebDriverManagerTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="gselenium-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gselenium.practice.ipro.tests.*" />
+          <option name="PATTERN" value="com.gselenium.practice.webmanager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.gselenium.practice.ipro.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.gselenium.practice.ipro.tests.LoginPassTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="com.gselenium.practice.webmanager" />
+      <option name="MAIN_CLASS_NAME" value="com.gselenium.practice.webmanager.WebDriverManagerTest" />
+      <option name="METHOD_NAME" value="WebDriverManagerTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -153,17 +179,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/alenka/Programming/Java/gselenium-practice/src/main/java/com/gselenium/practice/ipro/PackageByClass_ipro.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="gselenium-practice" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/PackageByClass_ipro.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -174,19 +189,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.HomePageTest" />
-      <item itemvalue="TestNG.LoginPassTest" />
-      <item itemvalue="TestNG.ContactUsTest" />
-      <item itemvalue="TestNG./Users/alenka/Programming/Java/gselenium-practice/src/main/java/com/gselenium/practice/ipro/PackageByClass_ipro.xml" />
       <item itemvalue="TestNG./Users/alenka/Programming/Java/gselenium-practice/src/main/java/com/gselenium/practice/ipro/Package-Test_Result_ipro.xml" />
+      <item itemvalue="TestNG.E2EThankYouPageTest" />
+      <item itemvalue="TestNG.WebDriverManagerTest.WebDriverManagerTest" />
+      <item itemvalue="TestNG.HomePageTest" />
+      <item itemvalue="TestNG.ContactUsTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/alenka/Programming/Java/gselenium-practice/src/main/java/com/gselenium/practice/ipro/Package-Test_Result_ipro.xml" />
-        <item itemvalue="TestNG./Users/alenka/Programming/Java/gselenium-practice/src/main/java/com/gselenium/practice/ipro/PackageByClass_ipro.xml" />
-        <item itemvalue="TestNG.HomePageTest" />
-        <item itemvalue="TestNG.LoginPassTest" />
         <item itemvalue="TestNG.ContactUsTest" />
+        <item itemvalue="TestNG./Users/alenka/Programming/Java/gselenium-practice/src/main/java/com/gselenium/practice/ipro/Package-Test_Result_ipro.xml" />
+        <item itemvalue="TestNG.HomePageTest" />
+        <item itemvalue="TestNG.WebDriverManagerTest.WebDriverManagerTest" />
+        <item itemvalue="TestNG.E2EThankYouPageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -314,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636993413349</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Updated chrome driver (with chrome driver path)">
+      <created>1636995722038</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1636995722038</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -351,6 +373,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/gselenium/practice/solutions/eplay/docker/tests/BaseTest.java</url>
           <line>31</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gselenium/practice/ipro/tests/BaseTest.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

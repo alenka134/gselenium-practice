@@ -1,15 +1,0 @@
-
-v
-java:S2293A"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ò‹Öã8ºİé’.
-Z	java:S106d"9Replace this use of System.out or System.err by a logger.(·‘İÉüÿÿÿÿ8ºİé’.
-Z	java:S106%"9Replace this use of System.out or System.err by a logger.(Í’Ûùÿÿÿÿ8úğÔ .
-K
-java:S1172^")Remove this unused method parameter "el".(„‰¸Ğúÿÿÿÿ8°úÆ¢ .
-U	java:S106D"9Replace this use of System.out or System.err by a logger.(¸ãÇÖ8ºİé’.
-c
-java:S2142!"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8úğÔ .
-Z	java:S106u"9Replace this use of System.out or System.err by a logger.(·‘İÉüÿÿÿÿ8µöâª .
-t
-java:S1104"RMake driver a static final constant or non-public and provide accessors if needed.(ÔèË©úÿÿÿÿ8ºİé’.
-c
-java:S2142g"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ºİé’.
