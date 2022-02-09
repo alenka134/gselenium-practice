@@ -1,18 +1,0 @@
-
-h
-java:S1128
-"KRemove this unused import 'org.openqa.selenium.remote.DesiredCapabilities'.(¦ò©Š8êŠˆ‚—.
-V
-java:S1128"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8êŠˆ‚—.
-d
-java:S1128"GRemove this unused import 'org.openqa.selenium.remote.RemoteWebDriver'.(ú£Ú—8êŠˆ‚—.
-X
-java:S1128";Remove this unused import 'java.net.MalformedURLException'.(ªËÞˆ8êŠˆ‚—.
-E
-java:S11484"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8êŠˆ‚—.
-F
-java:S1128")Remove this unused import 'java.net.URI'.(Ö¦¨°8êŠˆ‚—.
-h
-java:S1128	"FRemove this unused import 'org.openqa.selenium.remote.CapabilityType'.(–ŒÉÝûÿÿÿÿ8êŠˆ‚—.
-\
-java:S1128"?Remove this unused import 'java.time.format.DateTimeFormatter'.(‰÷÷ª8êŠˆ‚—.
